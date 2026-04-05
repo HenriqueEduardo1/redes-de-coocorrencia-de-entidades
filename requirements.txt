@@ -1,0 +1,9 @@
+networkx
+spacy
+beautifulsoup4
+requests
+youtube-transcript-api
+pdfplumber
+PyPDF2
+pandas
+nxviz
