@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="ai" />
+    <node id="google" />
+    <node id="cw" />
+    <node id="usb" />
+    <node id="css" />
+    <node id="english" />
+    <node id="html" />
+    <node id="social security" />
+    <node id="spanish" />
+    <node id="gpt 4" />
+    <node id="mint" />
+    <node id="token" />
+    <node id="tokens the" />
+    <node id="network" />
+    <node id="transformations" />
+    <node id="transformer" />
+    <node id="gpt" />
+    <node id="practical" />
+    <node id="you''ll" />
+    <node id="gpt2" />
+    <node id="windows" />
+    <node id="github" />
+    <node id="gordon" />
+    <node id="gpu" />
+    <node id="h100s" />
+    <node id="nvidia" />
+    <node id="data center" />
+    <node id="elon musk" />
+    <node id="the republican party" />
+    <node id="the united states" />
+    <node id="wikipedia" />
+    <node id="camala harris" />
+    <node id="hillary clinton" />
+    <node id="jd vance" />
+    <node id="joe biden" />
+    <node id="mike pence" />
+    <node id="ronda" />
+    <node id="tim kane" />
+    <node id="sim" />
+    <node id="tcp ip" />
+    <node id="tech" />
+    <node id="im" />
+    <node id="br" />
+    <node id="persona" />
+    <node id="vibe" />
+    <node id="paris" />
+    <node id="knowledge" />
+    <node id="cruz" />
+    <node id="john" />
+    <node id="tom cruz" />
+    <node id="us" />
+    <node id="khan" />
+    <node id="orson" />
+    <node id="falcon 7b" />
+    <node id="falcon" />
+    <node id="kovach" />
+    <node id="buffalo sabers" />
+    <node id="dragon" />
+    <node id="stanley cups" />
+    <node id="ed" />
+    <node id="dominic hasek" />
+    <node id="chach" />
+    <node id="jane austin's" />
+    <node id="lms" />
+    <node id="pride and prejudice" />
+    <node id="summarize" />
+    <node id="prejudice" />
+    <node id="quirk" />
+    <node id="gpt3" />
+    <node id="allen ai" />
+    <node id="almo" />
+    <node id="mmo" />
+    <node id="theo" />
+    <node id="allen institute" />
+    <node id="pt40" />
+    <node id="hawk" />
+    <node id="imagine" />
+    <node id="dots" />
+    <node id="python" />
+    <node id="olympiad" />
+    <node id="ruckus" />
+    <node id="strawberry" />
+    <node id="phd" />
+    <node id="bible" />
+    <node id="st" />
+    <node id="lean on tools" />
+    <node id="pipeline" />
+    <node id="dis" />
+    <node id="solution" />
+    <node id="green solutions" />
+    <node id="solutions" />
+    <node id="ais" />
+    <node id="lev" />
+    <node id="human experts" />
+    <node id="rl" />
+    <node id="china" />
+    <node id="deep" />
+    <node id="nota" />
+    <node id="dc car1" />
+    <node id="dt car1" />
+    <node id="macbook" />
+    <node id="4 40" />
+    <node id="c car1" />
+    <node id="o3" />
+    <node id="gemini" />
+    <node id="gemini 2.0" />
+    <node id="go.com" />
+    <node id="deep mind" />
+    <node id="analysis" />
+    <node id="versus alphao" />
+    <node id="youtube" />
+    <node id="drift" />
+    <node id="rel" />
+    <node id="hf" />
+    <node id="lf" />
+    <node id="smart systems" />
+    <node id="rf" />
+    <node id="avail" />
+    <node id="el marina" />
+    <node id="google gemini" />
+    <node id="mit" />
+    <node id="ai studio" />
+    <node id="precision" />
+    <node id="li" />
+    <node id="paradigm" />
+    <edge source="ai" target="google">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="ai" target="gpt">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="ai" target="gpt 4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="gpt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="transformer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="paris">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="kovach">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="gpt3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="persona">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="allen ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="almo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="chach">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="mmo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="theo">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="ai" target="allen institute">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="pt40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="rl">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="ai" target="gemini">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="ai" target="gemini 2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="go.com">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="deep mind">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="deep">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="google gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="mit">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="ai studio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="lms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai" target="li">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="gemini 2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="go.com">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="rl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="deep">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="google gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="mit">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cw" target="usb">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="css" target="english">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="css" target="html">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="html">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="social security">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="spanish">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="gordon">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="network">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="sim">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="drift">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="social security" target="spanish">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt 4" target="mint">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt 4" target="gpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt 4" target="gpt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt 4" target="transformer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="token" target="tokens the">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network" target="transformations">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network" target="transformer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network" target="gordon">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network" target="data center">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network" target="elon musk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network" target="stanley cups">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="transformations" target="transformer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="transformer" target="gpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="transformer" target="gpt2">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="transformer" target="windows">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="transformer" target="github">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="practical">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="you''ll">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="gpt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="im">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="br">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="persona">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="vibe">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="ed">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="orson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="chach">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gpt" target="jane austin's">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="lms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="pride and prejudice">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="summarize">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="allen ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="almo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="mmo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="theo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="dc car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="4 40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="c car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt" target="o3">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gpt" target="rl">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="practical" target="you''ll">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="practical" target="camala harris">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="practical" target="hillary clinton">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="practical" target="jd vance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="practical" target="joe biden">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="practical" target="mike pence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="practical" target="ronda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="practical" target="tim kane">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="windows">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="github">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="windows" target="avail">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="windows" target="el marina">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpu" target="h100s">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gpu" target="nvidia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpu" target="youtube">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="h100s" target="nvidia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="data center" target="elon musk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="the republican party" target="the united states">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="the republican party" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="the united states" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="camala harris" target="hillary clinton">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="camala harris" target="jd vance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="camala harris" target="joe biden">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="camala harris" target="mike pence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="camala harris" target="ronda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="camala harris" target="tim kane">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hillary clinton" target="jd vance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hillary clinton" target="joe biden">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hillary clinton" target="mike pence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hillary clinton" target="ronda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hillary clinton" target="tim kane">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jd vance" target="joe biden">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jd vance" target="mike pence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jd vance" target="ronda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jd vance" target="tim kane">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="joe biden" target="mike pence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="joe biden" target="ronda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="joe biden" target="tim kane">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mike pence" target="ronda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mike pence" target="tim kane">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ronda" target="tim kane">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tcp ip" target="tech">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="persona" target="vibe">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="persona" target="gpt3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="paris" target="knowledge">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cruz" target="john">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cruz" target="tom cruz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cruz" target="us">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="john" target="tom cruz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="john" target="us">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tom cruz" target="us">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="khan" target="orson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson" target="falcon 7b">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson" target="falcon">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson" target="ed">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson" target="dominic hasek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="buffalo sabers" target="dragon">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="buffalo sabers" target="stanley cups">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dragon" target="stanley cups">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="jane austin's">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="lms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="pride and prejudice">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="summarize">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="allen ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="almo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="mmo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="theo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jane austin's" target="lms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jane austin's" target="pride and prejudice">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jane austin's" target="summarize">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lms" target="pride and prejudice">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lms" target="summarize">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lms" target="ai studio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pride and prejudice" target="summarize">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="prejudice" target="quirk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="allen ai" target="almo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="allen ai" target="mmo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="allen ai" target="theo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="almo" target="mmo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="almo" target="theo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mmo" target="theo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="theo" target="allen institute">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hawk" target="imagine">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dots" target="python">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="olympiad" target="ruckus">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="olympiad" target="strawberry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="olympiad" target="phd">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ruckus" target="strawberry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bible" target="st">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lean on tools" target="pipeline">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dis" target="solution">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="green solutions" target="solutions">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="solutions" target="ais">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="solutions" target="lev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="solutions" target="human experts">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="solutions" target="rl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="solutions" target="nota">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ais" target="lev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="human experts" target="rl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="china">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="deep">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="4 40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="c car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="o3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="gemini 2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="go.com">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="rel">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="hf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="rf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="paradigm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="china" target="deep">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep" target="dt car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep" target="macbook">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep" target="google gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep" target="mit">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dt car1" target="macbook">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="macbook" target="precision">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="4 40" target="c car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="4 40" target="o3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="c car1" target="o3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gemini" target="gemini 2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gemini" target="go.com">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gemini 2.0" target="go.com">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="analysis" target="versus alphao">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="analysis" target="youtube">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="versus alphao" target="youtube">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lf" target="smart systems">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avail" target="el marina">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google gemini" target="mit">
+      <data key="d0">1</data>
+    </edge>
+  </graph>
+</graphml>
