@@ -2,519 +2,2445 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key id="d0" for="edge" attr.name="weight" attr.type="long" />
   <graph edgedefault="undirected">
-    <node id="ai" />
-    <node id="google" />
-    <node id="cw" />
-    <node id="usb" />
-    <node id="css" />
+    <node id="chachi pt" />
+    <node id="fine web" />
+    <node id="first" />
+    <node id="hugging face" />
+    <node id="2007" />
+    <node id="2024" />
+    <node id="about 44 terabyte" />
+    <node id="common craw" />
+    <node id="common crawl" />
+    <node id="2.7 billion" />
+    <node id="a ton" />
+    <node id="common cw" />
     <node id="english" />
-    <node id="html" />
-    <node id="social security" />
+    <node id="more than 65%" />
     <node id="spanish" />
-    <node id="gpt 4" />
-    <node id="mint" />
-    <node id="token" />
-    <node id="tokens the" />
-    <node id="network" />
-    <node id="transformations" />
-    <node id="transformer" />
-    <node id="gpt" />
-    <node id="practical" />
-    <node id="you''ll" />
+    <node id="2012" />
+    <node id="2020" />
+    <node id="huging phase" />
+    <node id="two" />
+    <node id="200" />
+    <node id="40 terabyte" />
+    <node id="one" />
+    <node id="utf8" />
+    <node id="eight" />
+    <node id="zero" />
+    <node id="255" />
+    <node id="256" />
+    <node id="only 256" />
+    <node id="116" />
+    <node id="11632" />
+    <node id="32" />
+    <node id="100" />
+    <node id="277" />
+    <node id="about 100,000" />
+    <node id="gp4" />
+    <node id="cl 100" />
+    <node id="220" />
+    <node id="three" />
+    <node id="world" />
+    <node id="100, 27777" />
+    <node id="62" />
+    <node id="gt4" />
+    <node id="the end of the day" />
+    <node id="15 trillion" />
+    <node id="44 terab" />
+    <node id="a few thousand" />
+    <node id="8,000" />
+    <node id="16,000" />
+    <node id="4,000" />
+    <node id="four" />
+    <node id="3962" />
+    <node id="anywhere between zero and some" />
+    <node id="100277" />
+    <node id="100,000" />
+    <node id="11799" />
+    <node id="2%" />
+    <node id="3%" />
+    <node id="4%" />
+    <node id="1%" />
+    <node id="billion" />
+    <node id="six" />
+    <node id="trillion" />
+    <node id="860" />
+    <node id="86c" />
+    <node id="91" />
+    <node id="a60" />
+    <node id="287" />
+    <node id="fourth" />
+    <node id="third" />
+    <node id="chat gpt" />
+    <node id="many month ago" />
+    <node id="open" />
+    <node id="ch gpt" />
+    <node id="open ai" />
+    <node id="second" />
+    <node id="today" />
+    <node id="2019" />
+    <node id="gpd2" />
     <node id="gpt2" />
-    <node id="windows" />
-    <node id="github" />
+    <node id="openi" />
+    <node id="1,24" />
+    <node id="1.6 billion" />
+    <node id="a trillion" />
+    <node id="more than 1,24" />
+    <node id="several hundred billion" />
+    <node id="approximately 100" />
+    <node id="couple hundred thousand" />
+    <node id="million" />
+    <node id="100 billion" />
+    <node id="approximately $40,000" />
+    <node id="billion token" />
+    <node id="lm. c" />
+    <node id="about $100" />
+    <node id="about $600" />
+    <node id="about one day" />
+    <node id="a second" />
+    <node id="1 million" />
+    <node id="all 1 million" />
+    <node id="20" />
+    <node id="32,000" />
+    <node id="420" />
+    <node id="about 33 billion token" />
+    <node id="about 7 second" />
+    <node id="only about" />
+    <node id="10 or 15 minute" />
     <node id="gordon" />
-    <node id="gpu" />
-    <node id="h100s" />
+    <node id="great companion" />
+    <node id="only 1%" />
+    <node id="about a day or two" />
+    <node id="gpus" />
+    <node id="h100" />
+    <node id="lambda" />
     <node id="nvidia" />
-    <node id="data center" />
+    <node id="gpu" />
+    <node id="one h100 gpu" />
+    <node id="$3.4 trillion" />
+    <node id="about a month ago" />
     <node id="elon musk" />
-    <node id="the republican party" />
-    <node id="the united states" />
+    <node id="1.5 billion" />
+    <node id="gbt2" />
+    <node id="roughly 1.5 billion" />
+    <node id="45 billion" />
+    <node id="lama 3" />
+    <node id="llama 3" />
+    <node id="meta" />
+    <node id="hyperbolic" />
+    <node id="the 405b llama 3.1" />
+    <node id="128" />
+    <node id="llama 3.1 405 billion" />
+    <node id="405 billion" />
     <node id="wikipedia" />
-    <node id="camala harris" />
+    <node id="zebra" />
+    <node id="512" />
+    <node id="10" />
+    <node id="the end of 2023" />
+    <node id="2017" />
     <node id="hillary clinton" />
     <node id="jd vance" />
-    <node id="joe biden" />
+    <node id="kit trump" />
     <node id="mike pence" />
-    <node id="ronda" />
+    <node id="the republican party" />
+    <node id="the united states" />
     <node id="tim kane" />
-    <node id="sim" />
-    <node id="tcp ip" />
-    <node id="tech" />
-    <node id="im" />
-    <node id="br" />
-    <node id="persona" />
-    <node id="vibe" />
+    <node id="camala harris" />
+    <node id="joe biden" />
+    <node id="lm" />
+    <node id="ronda santis" />
+    <node id="korean" />
+    <node id="the last few minute" />
+    <node id="hundred of thousand" />
+    <node id="many thousand" />
+    <node id="roughly three month" />
+    <node id="49" />
+    <node id="a wild west" />
+    <node id="gpt 40" />
+    <node id="4 28" />
+    <node id="2022" />
+    <node id="instruct gpt" />
+    <node id="opena" />
+    <node id="openai" />
+    <node id="3.4" />
+    <node id="scale ai" />
+    <node id="upwork" />
+    <node id="five" />
+    <node id="hundred" />
+    <node id="instr gpt" />
+    <node id="the last 2 or 3 year" />
+    <node id="ultra chat" />
+    <node id="chpt" />
     <node id="paris" />
-    <node id="knowledge" />
+    <node id="20 minute" />
+    <node id="open aai" />
+    <node id="many year ago" />
+    <node id="american" />
     <node id="cruz" />
-    <node id="john" />
+    <node id="genis khan" />
+    <node id="john baraso" />
     <node id="tom cruz" />
     <node id="us" />
-    <node id="khan" />
-    <node id="orson" />
+    <node id="a few year ago" />
     <node id="falcon 7b" />
-    <node id="falcon" />
+    <node id="orson kovat" />
+    <node id="orson kovats" />
+    <node id="1950" />
+    <node id="minor league baseball" />
+    <node id="oron kovats" />
+    <node id="apt" />
     <node id="kovach" />
+    <node id="kovats" />
+    <node id="dominic kek" />
     <node id="buffalo sabers" />
-    <node id="dragon" />
-    <node id="stanley cups" />
+    <node id="mol 7b" />
+    <node id="llm" />
+    <node id="a long time ago" />
+    <node id="a month ago" />
+    <node id="a few minute ago" />
     <node id="ed" />
+    <node id="two second" />
+    <node id="chachi p" />
+    <node id="chat pt" />
     <node id="dominic hasek" />
+    <node id="a few second or minute ago" />
     <node id="chach" />
+    <node id="gpt" />
     <node id="jane austin's" />
+    <node id="genos" />
     <node id="lms" />
-    <node id="pride and prejudice" />
-    <node id="summarize" />
-    <node id="prejudice" />
-    <node id="quirk" />
     <node id="gpt3" />
     <node id="allen ai" />
-    <node id="almo" />
+    <node id="chasht" />
     <node id="mmo" />
-    <node id="theo" />
-    <node id="allen institute" />
-    <node id="pt40" />
-    <node id="hawk" />
-    <node id="imagine" />
-    <node id="dots" />
+    <node id="almo" />
+    <node id="240" />
+    <node id="ai" />
+    <node id="allen institute of artificial intelligence" />
+    <node id="chashi" />
+    <node id="this date" />
+    <node id="13" />
+    <node id="emily" />
+    <node id="more say 100" />
+    <node id="only 100" />
+    <node id="only one" />
+    <node id="30 - 4" />
+    <node id="177" />
+    <node id="23" />
+    <node id="seven" />
+    <node id="chachy pd" />
+    <node id="day" />
+    <node id="practi" />
+    <node id="apple" />
+    <node id="161" />
     <node id="python" />
-    <node id="olympiad" />
-    <node id="ruckus" />
+    <node id="python routine" />
+    <node id="number two" />
+    <node id="python interpreter" />
     <node id="strawberry" />
-    <node id="phd" />
-    <node id="bible" />
-    <node id="st" />
-    <node id="lean on tools" />
-    <node id="pipeline" />
-    <node id="dis" />
-    <node id="solution" />
-    <node id="green solutions" />
-    <node id="solutions" />
-    <node id="ais" />
+    <node id="u2s uqs" />
+    <node id="ubiquitous" />
+    <node id="only two" />
+    <node id="9.11" />
+    <node id="9.9" />
+    <node id="99.9" />
+    <node id="bible verse" />
+    <node id="many month" />
+    <node id="thousand" />
+    <node id="number one" />
+    <node id="teck" />
+    <node id="chbt" />
+    <node id="secondary" />
+    <node id="15" />
+    <node id="only four" />
     <node id="lev" />
-    <node id="human experts" />
-    <node id="rl" />
     <node id="china" />
-    <node id="deep" />
-    <node id="nota" />
-    <node id="dc car1" />
+    <node id="dc kai" />
+    <node id="deep seek" />
+    <node id="dc car1 be" />
+    <node id="r1" />
+    <node id="rl" />
+    <node id="sft" />
+    <node id="chinese" />
+    <node id="cy" />
+    <node id="together" />
     <node id="dt car1" />
-    <node id="macbook" />
-    <node id="4 40" />
-    <node id="c car1" />
+    <node id="01 03" />
     <node id="o3" />
-    <node id="gemini" />
+    <node id="deep c car1" />
+    <node id="gpt 4" />
+    <node id="gpt 4 40 mini" />
+    <node id="opening ey" />
+    <node id="01" />
+    <node id="30 second" />
+    <node id="40" />
+    <node id="about 80 90%" />
+    <node id="ai studio" />
     <node id="gemini 2.0" />
-    <node id="go.com" />
-    <node id="deep mind" />
-    <node id="analysis" />
-    <node id="versus alphao" />
-    <node id="youtube" />
-    <node id="drift" />
-    <node id="rel" />
-    <node id="hf" />
+    <node id="google" />
+    <node id="2025" />
+    <node id="gemini" />
+    <node id="llms" />
+    <node id="alphago" />
+    <node id="go" />
+    <node id="000" />
+    <node id="10th" />
+    <node id="37" />
+    <node id="about 1" />
+    <node id="alphao" />
+    <node id="leis do versus alphao move" />
+    <node id="pelican" />
+    <node id="1,000" />
+    <node id="infinity" />
+    <node id="number three" />
+    <node id="picans" />
+    <node id="0.1" />
+    <node id="08" />
+    <node id="081" />
+    <node id="only 0.1" />
+    <node id="0.15" />
+    <node id="maybe 3 3.5" />
+    <node id="5,000" />
+    <node id="one billion" />
+    <node id="rhf" />
     <node id="lf" />
-    <node id="smart systems" />
-    <node id="rf" />
-    <node id="avail" />
+    <node id="1. z" />
+    <node id="ten of thousand" />
+    <node id="olympiad" />
+    <node id="swiss" />
+    <node id="a few second" />
+    <node id="many ten of second" />
     <node id="el marina" />
     <node id="google gemini" />
-    <node id="mit" />
-    <node id="ai studio" />
-    <node id="precision" />
-    <node id="li" />
-    <node id="paradigm" />
-    <edge source="ai" target="google">
-      <data key="d0">3</data>
-    </edge>
-    <edge source="ai" target="gpt">
-      <data key="d0">5</data>
-    </edge>
-    <edge source="ai" target="gpt 4">
+    <node id="14" />
+    <node id="anthropic" />
+    <node id="llama" />
+    <node id="son" />
+    <node id="xai" />
+    <node id="few month" />
+    <node id="ai news" />
+    <node id="almost every other day" />
+    <node id="swix" />
+    <node id="gem" />
+    <node id="open a" />
+    <node id="llama 3.1" />
+    <node id="bf16 llama" />
+    <node id="fp8" />
+    <node id="500" />
+    <node id="lm studio" />
+    <node id="ram" />
+    <node id="the macbook pro" />
+    <node id="chashi pta.com" />
+    <node id="2 hour" />
+    <node id="two hour" />
+    <node id="911 9.11" />
+    <node id="o03 mini" />
+    <node id="daily" />
+    <node id="ten or hundred" />
+    <edge source="chachi pt" target="fine web">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="gpt2">
+    <edge source="chachi pt" target="first">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="transformer">
+    <edge source="chachi pt" target="hugging face">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="paris">
+    <edge source="chachi pt" target="chachi p">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="kovach">
+    <edge source="chachi pt" target="chat pt">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="gpt3">
+    <edge source="chachi pt" target="dominic hasek">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="persona">
+    <edge source="chachi pt" target="orson kovats">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="allen ai">
+    <edge source="chachi pt" target="20">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="almo">
+    <edge source="chachi pt" target="200">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="chach">
+    <edge source="chachi pt" target="a second">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="mmo">
+    <edge source="chachi pt" target="one">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="theo">
+    <edge source="fine web" target="first">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fine web" target="hugging face">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fine web" target="english">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fine web" target="spanish">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="hugging face">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="200">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="40 terabyte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="a ton">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="eight">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="one">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="first" target="two">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="first" target="zero">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="15 trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="a few thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="three">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="first" target="16,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="4,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="8,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="four">
       <data key="d0">2</data>
     </edge>
-    <edge source="ai" target="allen institute">
+    <edge source="first" target="2019">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="pt40">
+    <edge source="first" target="fourth">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="rl">
+    <edge source="first" target="gpd2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="gpt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="openi">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="today">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="second">
       <data key="d0">2</data>
     </edge>
-    <edge source="ai" target="gemini">
+    <edge source="first" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="zebra">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="the last few minute">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="third">
       <data key="d0">2</data>
     </edge>
-    <edge source="ai" target="gemini 2.0">
+    <edge source="first" target="2022">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="go.com">
+    <edge source="first" target="instruct gpt">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="deep mind">
+    <edge source="first" target="opena">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="deep">
+    <edge source="first" target="openai">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="first" target="3.4">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="google gemini">
+    <edge source="first" target="scale ai">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="mit">
+    <edge source="first" target="upwork">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="ai studio">
+    <edge source="first" target="10">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="lms">
+    <edge source="first" target="five">
       <data key="d0">1</data>
     </edge>
-    <edge source="ai" target="li">
+    <edge source="first" target="spanish">
       <data key="d0">1</data>
     </edge>
-    <edge source="google" target="gemini">
+    <edge source="first" target="a second">
       <data key="d0">1</data>
     </edge>
-    <edge source="google" target="gemini 2.0">
+    <edge source="first" target="many year ago">
       <data key="d0">1</data>
     </edge>
-    <edge source="google" target="go.com">
+    <edge source="first" target="number two">
       <data key="d0">1</data>
     </edge>
-    <edge source="google" target="rl">
+    <edge source="first" target="many month">
       <data key="d0">1</data>
     </edge>
-    <edge source="google" target="deep">
+    <edge source="first" target="thousand">
       <data key="d0">1</data>
     </edge>
-    <edge source="google" target="google gemini">
+    <edge source="first" target="chbt">
       <data key="d0">1</data>
     </edge>
-    <edge source="google" target="mit">
+    <edge source="first" target="secondary">
       <data key="d0">1</data>
     </edge>
-    <edge source="cw" target="usb">
+    <edge source="first" target="lev">
       <data key="d0">1</data>
     </edge>
-    <edge source="css" target="english">
+    <edge source="first" target="rhf">
       <data key="d0">1</data>
     </edge>
-    <edge source="css" target="html">
+    <edge source="first" target="1,000">
       <data key="d0">1</data>
     </edge>
-    <edge source="english" target="html">
+    <edge source="first" target="14">
       <data key="d0">1</data>
     </edge>
-    <edge source="english" target="social security">
+    <edge source="first" target="anthropic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="few month">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="ai studio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="gem">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="open a">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="open ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="chashi pta.com">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="2 hour">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="first" target="two hour">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2007" target="2024">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2007" target="about 44 terabyte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2007" target="common craw">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2007" target="common crawl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2024" target="about 44 terabyte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2024" target="common craw">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2024" target="common crawl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2024" target="the end of 2023">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about 44 terabyte" target="common craw">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about 44 terabyte" target="common crawl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="common craw" target="common crawl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2.7 billion" target="a ton">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2.7 billion" target="common cw">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a ton" target="common cw">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a ton" target="200">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a ton" target="40 terabyte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a ton" target="100,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a ton" target="about a month ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a ton" target="elon musk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="more than 65%">
       <data key="d0">1</data>
     </edge>
     <edge source="english" target="spanish">
       <data key="d0">1</data>
     </edge>
-    <edge source="english" target="gordon">
+    <edge source="english" target="about a day or two">
       <data key="d0">1</data>
     </edge>
-    <edge source="english" target="network">
+    <edge source="english" target="10">
       <data key="d0">1</data>
     </edge>
-    <edge source="english" target="sim">
+    <edge source="english" target="korean">
       <data key="d0">1</data>
     </edge>
-    <edge source="english" target="drift">
+    <edge source="english" target="four">
       <data key="d0">1</data>
     </edge>
-    <edge source="social security" target="spanish">
+    <edge source="english" target="three">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt 4" target="mint">
+    <edge source="spanish" target="10">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt 4" target="gpt">
+    <edge source="spanish" target="five">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt 4" target="gpt2">
+    <edge source="2012" target="2020">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt 4" target="transformer">
+    <edge source="2012" target="huging phase">
       <data key="d0">1</data>
     </edge>
-    <edge source="token" target="tokens the">
+    <edge source="2012" target="two">
       <data key="d0">1</data>
     </edge>
-    <edge source="network" target="transformations">
+    <edge source="2020" target="huging phase">
       <data key="d0">1</data>
     </edge>
-    <edge source="network" target="transformer">
+    <edge source="2020" target="two">
       <data key="d0">1</data>
     </edge>
-    <edge source="network" target="gordon">
+    <edge source="huging phase" target="two">
       <data key="d0">1</data>
     </edge>
-    <edge source="network" target="data center">
+    <edge source="two" target="one">
+      <data key="d0">12</data>
+    </edge>
+    <edge source="two" target="utf8">
       <data key="d0">1</data>
     </edge>
-    <edge source="network" target="elon musk">
+    <edge source="two" target="eight">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="two" target="zero">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="two" target="cl 100">
       <data key="d0">1</data>
     </edge>
-    <edge source="network" target="stanley cups">
+    <edge source="two" target="gp4">
       <data key="d0">1</data>
     </edge>
-    <edge source="transformations" target="transformer">
+    <edge source="two" target="220">
       <data key="d0">1</data>
     </edge>
-    <edge source="transformer" target="gpt">
+    <edge source="two" target="three">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="two" target="world">
       <data key="d0">1</data>
     </edge>
-    <edge source="transformer" target="gpt2">
+    <edge source="two" target="15 trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="a few thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="1.5 billion">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="two" target="1.6 billion">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="two" target="2019">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="gbt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="gpt2">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="two" target="roughly 1.5 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="4 28">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="four">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="two" target="second">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="two" target="llm">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="two" target="chpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="this date">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="13">
       <data key="d0">3</data>
     </edge>
-    <edge source="transformer" target="windows">
+    <edge source="two" target="emily">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="two" target="177">
       <data key="d0">1</data>
     </edge>
-    <edge source="transformer" target="github">
+    <edge source="two" target="23">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="practical">
+    <edge source="two" target="many month">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="you''ll">
+    <edge source="two" target="thousand">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="gpt2">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpt" target="im">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpt" target="br">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpt" target="persona">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpt" target="vibe">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpt" target="ed">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpt" target="orson">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpt" target="chach">
+    <edge source="two" target="number two">
       <data key="d0">2</data>
     </edge>
-    <edge source="gpt" target="jane austin's">
+    <edge source="two" target="teck">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="lms">
+    <edge source="two" target="a second">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="pride and prejudice">
+    <edge source="two" target="rl">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="summarize">
+    <edge source="two" target="sft">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="allen ai">
+    <edge source="two" target="five">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="almo">
+    <edge source="two" target="number three">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="mmo">
+    <edge source="two" target="picans">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="theo">
+    <edge source="two" target="081">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="dc car1">
+    <edge source="two" target="only 0.1">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="4 40">
+    <edge source="two" target="ai studio">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="c car1">
+    <edge source="two" target="gem">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="o3">
-      <data key="d0">2</data>
+    <edge source="two" target="gemini">
+      <data key="d0">1</data>
     </edge>
-    <edge source="gpt" target="rl">
+    <edge source="two" target="open a">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="two" target="open ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="200" target="40 terabyte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="200" target="20">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="200" target="a second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="200" target="one">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="utf8">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="eight">
       <data key="d0">3</data>
     </edge>
-    <edge source="practical" target="you''ll">
+    <edge source="one" target="zero">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="one" target="100, 27777">
       <data key="d0">1</data>
     </edge>
-    <edge source="practical" target="camala harris">
+    <edge source="one" target="62">
       <data key="d0">1</data>
     </edge>
-    <edge source="practical" target="hillary clinton">
+    <edge source="one" target="gt4">
       <data key="d0">1</data>
     </edge>
-    <edge source="practical" target="jd vance">
+    <edge source="one" target="the end of the day">
       <data key="d0">1</data>
     </edge>
-    <edge source="practical" target="joe biden">
+    <edge source="one" target="15 trillion">
       <data key="d0">1</data>
     </edge>
-    <edge source="practical" target="mike pence">
+    <edge source="one" target="a few thousand">
       <data key="d0">1</data>
     </edge>
-    <edge source="practical" target="ronda">
+    <edge source="one" target="three">
+      <data key="d0">8</data>
+    </edge>
+    <edge source="one" target="287">
       <data key="d0">1</data>
     </edge>
-    <edge source="practical" target="tim kane">
+    <edge source="one" target="3962">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpt2" target="windows">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpt2" target="github">
+    <edge source="one" target="four">
       <data key="d0">2</data>
     </edge>
-    <edge source="windows" target="avail">
+    <edge source="one" target="fourth">
       <data key="d0">1</data>
     </edge>
-    <edge source="windows" target="el marina">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="gpu" target="h100s">
+    <edge source="one" target="third">
       <data key="d0">2</data>
     </edge>
-    <edge source="gpu" target="nvidia">
+    <edge source="one" target="about $100">
       <data key="d0">1</data>
     </edge>
-    <edge source="gpu" target="youtube">
+    <edge source="one" target="about $600">
       <data key="d0">1</data>
     </edge>
-    <edge source="h100s" target="nvidia">
+    <edge source="one" target="about one day">
       <data key="d0">1</data>
     </edge>
-    <edge source="data center" target="elon musk">
+    <edge source="one" target="today">
       <data key="d0">1</data>
     </edge>
-    <edge source="the republican party" target="the united states">
+    <edge source="one" target="gpt2">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="one" target="1 million">
       <data key="d0">1</data>
     </edge>
-    <edge source="the republican party" target="wikipedia">
+    <edge source="one" target="all 1 million">
       <data key="d0">1</data>
     </edge>
-    <edge source="the united states" target="wikipedia">
+    <edge source="one" target="20">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="one" target="32,000">
       <data key="d0">1</data>
     </edge>
-    <edge source="camala harris" target="hillary clinton">
+    <edge source="one" target="h100">
       <data key="d0">1</data>
     </edge>
-    <edge source="camala harris" target="jd vance">
+    <edge source="one" target="1.5 billion">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="one" target="1.6 billion">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="one" target="2019">
       <data key="d0">1</data>
     </edge>
-    <edge source="camala harris" target="joe biden">
+    <edge source="one" target="gbt2">
       <data key="d0">1</data>
     </edge>
-    <edge source="camala harris" target="mike pence">
+    <edge source="one" target="roughly 1.5 billion">
       <data key="d0">1</data>
     </edge>
-    <edge source="camala harris" target="ronda">
+    <edge source="one" target="wikipedia">
       <data key="d0">1</data>
     </edge>
-    <edge source="camala harris" target="tim kane">
+    <edge source="one" target="zebra">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="2022">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="instruct gpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="opena">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="openai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="million">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="ultra chat">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="llm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="a few second or minute ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="chach">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="one" target="gpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="jane austin's">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="genos">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="lms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="chashi">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="open ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="seven">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="number two">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="one" target="only two">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="strawberry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="second">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="one" target="together">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="a second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="alphago">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="one" target="go">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="10th">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="37">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="about 1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="alphao">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="five">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="one" target="number three">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="picans">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="chpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="gpt 40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="one" target="o03 mini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eight" target="zero">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eight" target="255">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eight" target="256">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eight" target="only 256">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eight" target="a second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eight" target="gpus">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eight" target="h100">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="eight" target="lambda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eight" target="nvidia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="zero" target="8,000">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="zero" target="four">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="zero" target="1. z">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="zero" target="five">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="255" target="256">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="255" target="only 256">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="256" target="only 256">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="256" target="116">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="256" target="11632">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="256" target="32">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="116" target="11632">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="116" target="32">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="11632" target="32">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100" target="277">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100" target="about 100,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100" target="gp4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="277" target="about 100,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="277" target="gp4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about 100,000" target="gp4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gp4" target="cl 100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="220" target="three">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="220" target="world">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="world">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="15 trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="a few thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="100,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="11799">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="2%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="3%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="3962">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="three" target="4%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="287">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="four">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="three" target="fourth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="third">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="three" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="zebra">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="hundred of thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="american">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="cruz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="genis khan">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="john baraso">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="tom cruz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="us">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="chat gpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="dominic kek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="today">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="five">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="13">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="three" target="emily">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="three" target="more say 100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="only 100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="only one">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="number two">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="three" target="only two">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="strawberry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="llm">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="three" target="teck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="chbt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="secondary">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="a second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="rl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="sft">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="01">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="o3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="el marina">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="three" target="number one">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100, 27777" target="62">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100, 27777" target="gt4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100, 27777" target="the end of the day">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="62" target="gt4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="62" target="the end of the day">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gt4" target="the end of the day">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="44 terab">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="a few thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="100 billion">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="15 trillion" target="2019">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="approximately $40,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="gpd2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="gpt2">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="15 trillion" target="lm. c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="today">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="1.6 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="45 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="lama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="llama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="15 trillion" target="meta">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="8,000" target="16,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="8,000" target="4,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="8,000" target="four">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="8,000" target="100277">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="16,000" target="4,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="16,000" target="four">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="4,000" target="four">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="3962">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="four" target="anywhere between zero and some">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="1%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="2%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="4%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="287">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="fourth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="third">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="open ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="30 - 4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="python">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="python routine">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="five">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="number three">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="four" target="picans">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="anywhere between zero and some">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="100,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="11799">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="2%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="3%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="4%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="287">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="fourth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3962" target="third">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100,000" target="11799">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100,000" target="2%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100,000" target="3%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100,000" target="4%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100,000" target="about a month ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100,000" target="elon musk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="11799" target="2%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="11799" target="3%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="11799" target="4%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2%" target="3%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2%" target="4%">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="2%" target="1%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3%" target="4%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="4%" target="1%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="billion" target="six">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="billion" target="a long time ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="billion" target="a month ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="860" target="86c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="860" target="91">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="860" target="a60">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="86c" target="91">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="86c" target="a60">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="91" target="a60">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="287" target="fourth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="287" target="third">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fourth" target="third">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fourth" target="2019">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fourth" target="gpd2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fourth" target="gpt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fourth" target="openi">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fourth" target="today">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="number two">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="python">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="python interpreter">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="strawberry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="u2s uqs">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="ubiquitous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="million">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="third" target="lm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="many month ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="open">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="ch gpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="open ai">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="chat gpt" target="second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="today">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="chat gpt" target="dominic kek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="a few minute ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="ed">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="orson kovats">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat gpt" target="two second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="many month ago" target="open">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open" target="allen ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open" target="chasht">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open" target="llm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open" target="mmo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open" target="open ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ch gpt" target="open ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ch gpt" target="second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ch gpt" target="today">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="today">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="chpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="five">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="paris">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="kovach">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="kovats">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="gpt3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="allen ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="chasht">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="llm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="mmo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="chashi">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="ai studio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="gem">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open ai" target="open a">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="second" target="today">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="second" target="081">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="second" target="only 0.1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="second" target="ai news">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="second" target="almost every other day">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="second" target="swix">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="2019">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="today" target="gpd2">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="today" target="gpt2">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="today" target="openi">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="1,24">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="1.6 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="a trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="more than 1,24">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="today" target="several hundred billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="approximately 100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="couple hundred thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="million">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="100 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="approximately $40,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="lm. c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="about $100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="about $600">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="about one day">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="$3.4 trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="gpu">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="gpus">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="nvidia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="today" target="dominic kek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2019" target="gpd2">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="2019" target="gpt2">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="2019" target="openi">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2019" target="100 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2019" target="approximately $40,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2019" target="billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2019" target="lm. c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2019" target="1.5 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2019" target="1.6 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2019" target="gbt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpd2" target="gpt2">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gpd2" target="openi">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpd2" target="100 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpd2" target="approximately $40,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpd2" target="billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpd2" target="lm. c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpd2" target="a second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="openi">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="1,24">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="1.6 billion">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="gpt2" target="a trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="more than 1,24">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gpt2" target="several hundred billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="approximately 100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="couple hundred thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="million">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="100 billion">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gpt2" target="approximately $40,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="lm. c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="1.5 billion">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gpt2" target="gbt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="roughly 1.5 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="45 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="lama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="llama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt2" target="meta">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="openi" target="hundred">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="openi" target="instruct gpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1,24" target="1.6 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1,24" target="a trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1,24" target="more than 1,24">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1,24" target="several hundred billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="a trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="more than 1,24">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="several hundred billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="1.5 billion">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="1.6 billion" target="gbt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="roughly 1.5 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="100 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="45 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="lama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="llama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.6 billion" target="meta">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a trillion" target="more than 1,24">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a trillion" target="several hundred billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="more than 1,24" target="several hundred billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="more than 1,24" target="approximately 100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="more than 1,24" target="couple hundred thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="more than 1,24" target="million">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="approximately 100" target="couple hundred thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="approximately 100" target="million">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="couple hundred thousand" target="million">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="million" target="ultra chat">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="million" target="thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100 billion" target="approximately $40,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100 billion" target="billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100 billion" target="lm. c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100 billion" target="45 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100 billion" target="lama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100 billion" target="llama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="100 billion" target="meta">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="approximately $40,000" target="billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="approximately $40,000" target="lm. c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="billion token" target="lm. c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about $100" target="about $600">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about $100" target="about one day">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about $600" target="about one day">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="gpus">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="h100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="lambda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="nvidia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="many year ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="china">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="dc kai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="deep seek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="13">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="emily">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="rl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="sft">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a second" target="20">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="all 1 million">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="20">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="32,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="420">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="about 33 billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="about 7 second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="only about">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="almo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1 million" target="openai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="20" target="32,000">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="20" target="420">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="20" target="about 33 billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="20" target="about 7 second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="20" target="only about">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="20" target="10 or 15 minute">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="20" target="161">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="32,000" target="420">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="32,000" target="about 33 billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="32,000" target="about 7 second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="32,000" target="only about">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="420" target="about 33 billion token">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="420" target="about 7 second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="420" target="only about">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about 33 billion token" target="about 7 second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about 33 billion token" target="only about">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about 7 second" target="only about">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gordon" target="great companion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gordon" target="only 1%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="great companion" target="only 1%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpus" target="h100">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpus" target="lambda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpus" target="nvidia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gpus" target="$3.4 trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpus" target="gpu">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="h100" target="lambda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="h100" target="nvidia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lambda" target="nvidia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nvidia" target="$3.4 trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nvidia" target="gpu">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpu" target="one h100 gpu">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpu" target="$3.4 trillion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpu" target="lm studio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpu" target="ram">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpu" target="the macbook pro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about a month ago" target="elon musk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.5 billion" target="gbt2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1.5 billion" target="roughly 1.5 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="45 billion" target="lama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="45 billion" target="llama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="45 billion" target="meta">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="45 billion" target="405 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lama 3" target="llama 3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lama 3" target="meta">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llama 3" target="meta">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="meta" target="14">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="meta" target="anthropic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="meta" target="google">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="meta" target="llama">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="meta" target="son">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="meta" target="xai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hyperbolic" target="the 405b llama 3.1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hyperbolic" target="llama 3.1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="128" target="llama 3.1 405 billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipedia" target="zebra">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipedia" target="512">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipedia" target="10">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="10" target="korean">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="10" target="five">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2017" target="hillary clinton">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2017" target="jd vance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2017" target="kit trump">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2017" target="mike pence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2017" target="the republican party">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2017" target="the united states">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2017" target="tim kane">
       <data key="d0">1</data>
     </edge>
     <edge source="hillary clinton" target="jd vance">
       <data key="d0">1</data>
     </edge>
-    <edge source="hillary clinton" target="joe biden">
+    <edge source="hillary clinton" target="kit trump">
       <data key="d0">1</data>
     </edge>
     <edge source="hillary clinton" target="mike pence">
       <data key="d0">1</data>
     </edge>
-    <edge source="hillary clinton" target="ronda">
+    <edge source="hillary clinton" target="the republican party">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hillary clinton" target="the united states">
       <data key="d0">1</data>
     </edge>
     <edge source="hillary clinton" target="tim kane">
       <data key="d0">1</data>
     </edge>
-    <edge source="jd vance" target="joe biden">
+    <edge source="jd vance" target="kit trump">
       <data key="d0">1</data>
     </edge>
     <edge source="jd vance" target="mike pence">
       <data key="d0">1</data>
     </edge>
-    <edge source="jd vance" target="ronda">
+    <edge source="jd vance" target="the republican party">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jd vance" target="the united states">
       <data key="d0">1</data>
     </edge>
     <edge source="jd vance" target="tim kane">
       <data key="d0">1</data>
     </edge>
-    <edge source="joe biden" target="mike pence">
+    <edge source="kit trump" target="mike pence">
       <data key="d0">1</data>
     </edge>
-    <edge source="joe biden" target="ronda">
+    <edge source="kit trump" target="the republican party">
       <data key="d0">1</data>
     </edge>
-    <edge source="joe biden" target="tim kane">
+    <edge source="kit trump" target="the united states">
       <data key="d0">1</data>
     </edge>
-    <edge source="mike pence" target="ronda">
+    <edge source="kit trump" target="tim kane">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mike pence" target="the republican party">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mike pence" target="the united states">
       <data key="d0">1</data>
     </edge>
     <edge source="mike pence" target="tim kane">
       <data key="d0">1</data>
     </edge>
-    <edge source="ronda" target="tim kane">
+    <edge source="the republican party" target="the united states">
       <data key="d0">1</data>
     </edge>
-    <edge source="tcp ip" target="tech">
+    <edge source="the republican party" target="tim kane">
       <data key="d0">1</data>
     </edge>
-    <edge source="persona" target="vibe">
+    <edge source="the united states" target="tim kane">
       <data key="d0">1</data>
     </edge>
-    <edge source="persona" target="gpt3">
+    <edge source="camala harris" target="joe biden">
       <data key="d0">1</data>
     </edge>
-    <edge source="paris" target="knowledge">
+    <edge source="camala harris" target="lm">
       <data key="d0">1</data>
     </edge>
-    <edge source="cruz" target="john">
+    <edge source="camala harris" target="ronda santis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="joe biden" target="lm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="joe biden" target="ronda santis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lm" target="ronda santis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lm" target="llm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hundred of thousand" target="ten of thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hundred of thousand" target="thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="many thousand" target="roughly three month">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="many thousand" target="hundred">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="many thousand" target="thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="49" target="a wild west">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="49" target="gpt 40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a wild west" target="gpt 40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt 40" target="o03 mini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2022" target="instruct gpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2022" target="opena">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2022" target="openai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="instruct gpt" target="opena">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="instruct gpt" target="openai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="instruct gpt" target="hundred">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="opena" target="openai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="openai" target="2 hour">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="openai" target="two hour">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3.4" target="scale ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3.4" target="upwork">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="scale ai" target="upwork">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="chpt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="paris">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="20 minute">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="open aai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="number three">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="picans">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="5,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="one billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="five" target="rhf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hundred" target="thousand">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="instr gpt" target="the last 2 or 3 year">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chpt" target="paris">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chpt" target="this date">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="20 minute" target="open aai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="cruz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="genis khan">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="john baraso">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="tom cruz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="us">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="a few year ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="falcon 7b">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="orson kovat">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="orson kovats">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="01 03">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="o3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cruz" target="genis khan">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cruz" target="john baraso">
       <data key="d0">1</data>
     </edge>
     <edge source="cruz" target="tom cruz">
@@ -523,250 +2449,610 @@
     <edge source="cruz" target="us">
       <data key="d0">1</data>
     </edge>
-    <edge source="john" target="tom cruz">
+    <edge source="genis khan" target="john baraso">
       <data key="d0">1</data>
     </edge>
-    <edge source="john" target="us">
+    <edge source="genis khan" target="tom cruz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="genis khan" target="us">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="john baraso" target="tom cruz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="john baraso" target="us">
       <data key="d0">1</data>
     </edge>
     <edge source="tom cruz" target="us">
       <data key="d0">1</data>
     </edge>
-    <edge source="khan" target="orson">
+    <edge source="a few year ago" target="falcon 7b">
       <data key="d0">1</data>
     </edge>
-    <edge source="orson" target="falcon 7b">
+    <edge source="a few year ago" target="orson kovat">
       <data key="d0">1</data>
     </edge>
-    <edge source="orson" target="falcon">
+    <edge source="a few year ago" target="orson kovats">
       <data key="d0">1</data>
     </edge>
-    <edge source="orson" target="ed">
+    <edge source="falcon 7b" target="orson kovat">
       <data key="d0">1</data>
     </edge>
-    <edge source="orson" target="dominic hasek">
+    <edge source="falcon 7b" target="orson kovats">
       <data key="d0">1</data>
     </edge>
-    <edge source="buffalo sabers" target="dragon">
+    <edge source="orson kovat" target="orson kovats">
       <data key="d0">1</data>
     </edge>
-    <edge source="buffalo sabers" target="stanley cups">
+    <edge source="orson kovat" target="1950">
       <data key="d0">1</data>
     </edge>
-    <edge source="dragon" target="stanley cups">
+    <edge source="orson kovat" target="minor league baseball">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson kovat" target="oron kovats">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson kovats" target="a few minute ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson kovats" target="ed">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson kovats" target="two second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson kovats" target="chachi p">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson kovats" target="chat pt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orson kovats" target="dominic hasek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1950" target="minor league baseball">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1950" target="oron kovats">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="minor league baseball" target="oron kovats">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="oron kovats" target="apt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kovach" target="kovats">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="buffalo sabers" target="mol 7b">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="allen ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="chasht">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="mmo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="13">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="emily">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="number two">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="teck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="el marina">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llm" target="number one">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a long time ago" target="a month ago">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a few minute ago" target="ed">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a few minute ago" target="two second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ed" target="two second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chachi p" target="chat pt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chachi p" target="dominic hasek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chat pt" target="dominic hasek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chach" target="gpt">
       <data key="d0">1</data>
     </edge>
     <edge source="chach" target="jane austin's">
       <data key="d0">1</data>
     </edge>
-    <edge source="chach" target="lms">
+    <edge source="gpt" target="jane austin's">
       <data key="d0">1</data>
     </edge>
-    <edge source="chach" target="pride and prejudice">
+    <edge source="genos" target="lms">
       <data key="d0">1</data>
     </edge>
-    <edge source="chach" target="summarize">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="chach" target="allen ai">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="chach" target="almo">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="chach" target="mmo">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="chach" target="theo">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="jane austin's" target="lms">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="jane austin's" target="pride and prejudice">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="jane austin's" target="summarize">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="lms" target="pride and prejudice">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="lms" target="summarize">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="lms" target="ai studio">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="pride and prejudice" target="summarize">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="prejudice" target="quirk">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="allen ai" target="almo">
+    <edge source="allen ai" target="chasht">
       <data key="d0">1</data>
     </edge>
     <edge source="allen ai" target="mmo">
       <data key="d0">1</data>
     </edge>
-    <edge source="allen ai" target="theo">
+    <edge source="chasht" target="mmo">
       <data key="d0">1</data>
     </edge>
-    <edge source="almo" target="mmo">
+    <edge source="240" target="ai">
       <data key="d0">1</data>
     </edge>
-    <edge source="almo" target="theo">
+    <edge source="240" target="allen institute of artificial intelligence">
       <data key="d0">1</data>
     </edge>
-    <edge source="mmo" target="theo">
+    <edge source="ai" target="allen institute of artificial intelligence">
       <data key="d0">1</data>
     </edge>
-    <edge source="theo" target="allen institute">
+    <edge source="13" target="emily">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="13" target="number two">
       <data key="d0">1</data>
     </edge>
-    <edge source="hawk" target="imagine">
+    <edge source="13" target="teck">
       <data key="d0">1</data>
     </edge>
-    <edge source="dots" target="python">
+    <edge source="13" target="rl">
       <data key="d0">1</data>
     </edge>
-    <edge source="olympiad" target="ruckus">
+    <edge source="13" target="sft">
       <data key="d0">1</data>
     </edge>
-    <edge source="olympiad" target="strawberry">
+    <edge source="emily" target="177">
       <data key="d0">1</data>
     </edge>
-    <edge source="olympiad" target="phd">
+    <edge source="emily" target="23">
       <data key="d0">1</data>
     </edge>
-    <edge source="ruckus" target="strawberry">
+    <edge source="emily" target="number two">
       <data key="d0">1</data>
     </edge>
-    <edge source="bible" target="st">
+    <edge source="emily" target="teck">
       <data key="d0">1</data>
     </edge>
-    <edge source="lean on tools" target="pipeline">
+    <edge source="emily" target="rl">
       <data key="d0">1</data>
     </edge>
-    <edge source="dis" target="solution">
+    <edge source="emily" target="sft">
       <data key="d0">1</data>
     </edge>
-    <edge source="green solutions" target="solutions">
+    <edge source="more say 100" target="only 100">
       <data key="d0">1</data>
     </edge>
-    <edge source="solutions" target="ais">
+    <edge source="more say 100" target="only one">
       <data key="d0">1</data>
     </edge>
-    <edge source="solutions" target="lev">
+    <edge source="only 100" target="only one">
       <data key="d0">1</data>
     </edge>
-    <edge source="solutions" target="human experts">
+    <edge source="177" target="23">
       <data key="d0">1</data>
     </edge>
-    <edge source="solutions" target="rl">
+    <edge source="seven" target="apple">
       <data key="d0">1</data>
     </edge>
-    <edge source="solutions" target="nota">
+    <edge source="chachy pd" target="day">
       <data key="d0">1</data>
     </edge>
-    <edge source="ais" target="lev">
+    <edge source="chachy pd" target="practi">
       <data key="d0">1</data>
     </edge>
-    <edge source="human experts" target="rl">
+    <edge source="day" target="practi">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="china">
+    <edge source="python" target="python routine">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="deep">
+    <edge source="python" target="python interpreter">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="4 40">
+    <edge source="python" target="strawberry">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="c car1">
+    <edge source="python" target="u2s uqs">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="o3">
+    <edge source="python" target="ubiquitous">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="gemini">
+    <edge source="number two" target="only two">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="gemini 2.0">
+    <edge source="number two" target="strawberry">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="go.com">
+    <edge source="number two" target="number one">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="rel">
+    <edge source="number two" target="teck">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="hf">
+    <edge source="python interpreter" target="strawberry">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="rf">
+    <edge source="python interpreter" target="u2s uqs">
       <data key="d0">1</data>
     </edge>
-    <edge source="rl" target="paradigm">
+    <edge source="python interpreter" target="ubiquitous">
       <data key="d0">1</data>
     </edge>
-    <edge source="china" target="deep">
+    <edge source="strawberry" target="u2s uqs">
       <data key="d0">1</data>
     </edge>
-    <edge source="deep" target="dt car1">
+    <edge source="strawberry" target="ubiquitous">
       <data key="d0">1</data>
     </edge>
-    <edge source="deep" target="macbook">
+    <edge source="strawberry" target="only two">
       <data key="d0">1</data>
     </edge>
-    <edge source="deep" target="google gemini">
+    <edge source="u2s uqs" target="ubiquitous">
       <data key="d0">1</data>
     </edge>
-    <edge source="deep" target="mit">
+    <edge source="9.11" target="9.9">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="9.11" target="99.9">
       <data key="d0">1</data>
     </edge>
-    <edge source="dt car1" target="macbook">
+    <edge source="9.11" target="bible verse">
       <data key="d0">1</data>
     </edge>
-    <edge source="macbook" target="precision">
+    <edge source="9.11" target="olympiad">
       <data key="d0">1</data>
     </edge>
-    <edge source="4 40" target="c car1">
+    <edge source="9.11" target="swiss">
       <data key="d0">1</data>
     </edge>
-    <edge source="4 40" target="o3">
+    <edge source="9.9" target="olympiad">
       <data key="d0">1</data>
     </edge>
-    <edge source="c car1" target="o3">
+    <edge source="9.9" target="swiss">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="9.9" target="911 9.11">
       <data key="d0">1</data>
     </edge>
-    <edge source="gemini" target="gemini 2.0">
+    <edge source="99.9" target="bible verse">
       <data key="d0">1</data>
     </edge>
-    <edge source="gemini" target="go.com">
+    <edge source="many month" target="thousand">
       <data key="d0">1</data>
     </edge>
-    <edge source="gemini 2.0" target="go.com">
+    <edge source="number one" target="el marina">
       <data key="d0">1</data>
     </edge>
-    <edge source="analysis" target="versus alphao">
+    <edge source="chbt" target="secondary">
       <data key="d0">1</data>
     </edge>
-    <edge source="analysis" target="youtube">
+    <edge source="chbt" target="pelican">
       <data key="d0">1</data>
     </edge>
-    <edge source="versus alphao" target="youtube">
+    <edge source="15" target="only four">
       <data key="d0">1</data>
     </edge>
-    <edge source="lf" target="smart systems">
+    <edge source="china" target="dc kai">
       <data key="d0">1</data>
     </edge>
-    <edge source="avail" target="el marina">
+    <edge source="china" target="deep seek">
       <data key="d0">1</data>
     </edge>
-    <edge source="google gemini" target="mit">
+    <edge source="dc kai" target="deep seek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep seek" target="dt car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep seek" target="number three">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep seek" target="bf16 llama">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep seek" target="fp8">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dc car1 be" target="r1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="r1" target="chinese">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="r1" target="cy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="sft">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="deep c car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="gpt 4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="gpt 4 40 mini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="opening ey">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="1,000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="infinity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="daily">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rl" target="ten or hundred">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chinese" target="cy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="01 03" target="o3">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="o3" target="01">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep c car1" target="gpt 4">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep c car1" target="gpt 4 40 mini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deep c car1" target="opening ey">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt 4" target="gpt 4 40 mini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt 4" target="opening ey">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gpt 4 40 mini" target="opening ey">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="30 second" target="40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="30 second" target="about 80 90%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="40" target="about 80 90%">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai studio" target="gemini 2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai studio" target="google">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai studio" target="gem">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai studio" target="gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai studio" target="open a">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gemini 2.0" target="google">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="google gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="14">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="anthropic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="llama">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="son">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="xai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2025" target="gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2025" target="llms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gemini" target="llms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gemini" target="gem">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gemini" target="open a">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="alphago" target="go">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="alphago" target="000">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="alphago" target="10th">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="alphago" target="37">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="alphago" target="about 1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="alphago" target="alphao">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="alphago" target="leis do versus alphao move">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="000" target="10th">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="000" target="37">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="000" target="about 1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="000" target="alphao">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="10th" target="37">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="10th" target="about 1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="10th" target="alphao">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="37" target="about 1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="37" target="alphao">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="37" target="leis do versus alphao move">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="about 1" target="alphao">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="alphao" target="leis do versus alphao move">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1,000" target="infinity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="number three" target="picans">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="0.1" target="08">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="081" target="only 0.1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="0.15" target="maybe 3 3.5">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="5,000" target="one billion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rhf" target="lf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="olympiad" target="swiss">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="swiss" target="911 9.11">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a few second" target="many ten of second">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="14" target="anthropic">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="14" target="llama">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="14" target="son">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="14" target="xai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="14" target="few month">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anthropic" target="llama">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anthropic" target="son">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anthropic" target="xai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anthropic" target="few month">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llama" target="son">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="llama" target="xai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="son" target="xai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai news" target="almost every other day">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ai news" target="swix">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="almost every other day" target="swix">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gem" target="open a">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bf16 llama" target="fp8">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="500" target="lm studio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lm studio" target="ram">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lm studio" target="the macbook pro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ram" target="the macbook pro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2 hour" target="two hour">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="daily" target="ten or hundred">
       <data key="d0">1</data>
     </edge>
   </graph>

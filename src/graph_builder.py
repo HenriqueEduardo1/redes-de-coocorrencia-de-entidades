@@ -48,28 +48,33 @@ def export_graph(G, window_name, video_id):
     """
     Exporta o grafo para .graphml .
     """
-    os.makedirs(os.path.join(".", "data", "processed"), exist_ok=True)
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    processed_dir = os.path.join(project_root, "data", "processed")
+    os.makedirs(processed_dir, exist_ok=True)
     
-    graphml_path = os.path.join(".", "data", "processed", f"{video_id}_{window_name}.graphml")
+    graphml_path = os.path.join(processed_dir, f"{video_id}_{window_name}.graphml")
     nx.write_graphml(G, graphml_path)
     print(f"[{window_name}] Grafo exportado: {graphml_path}")
 
 def main():
     video_id = "7xTGNNLPyMI"
-    texto_path = os.path.join(".", "data", "raw", f"{video_id}.txt")
-    json_path = os.path.join(".", "data", "raw", f"{video_id}.json")
     
-    if not os.path.exists(texto_path) or not os.path.exists(json_path):
-        print(f"Arquivos nãos encontrados para {video_id}.")
+    # Agora o Graph Builder procura diretamente o texto já LIMPO e PROCESSADO
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    clean_text_path = os.path.join(project_root, "data", "processed", f"{video_id}_clean.txt")
+    
+    if not os.path.exists(clean_text_path):
+        print(f"Arquivo limpo não encontrado: {clean_text_path}.")
+        print("Certifique-se de executar 'python src/text_processing.py' primeiro.")
         return
         
-    with open(texto_path, 'r', encoding='utf-8') as f:
-        raw_text = f.read().replace("\n", " ")
+    with open(clean_text_path, 'r', encoding='utf-8') as f:
+        clean_text_content = f.read()
 
-    print("Extraindo coocorrências (Isso pode levar alguns minutos)...")
-    sent_cooc = process_sentence_window(raw_text)
-    para_cooc = process_paragraph_window(json_path, block_duration_sec=60)
-    k_cooc = process_sliding_window(raw_text, k_words=50)
+    print("Extraindo coocorrências via spaCy (Isso pode levar alguns minutos)...")
+    sent_cooc = process_sentence_window(clean_text_content)
+    para_cooc = process_paragraph_window(clean_text_content)
+    k_cooc = process_sliding_window(clean_text_content, k_words=50)
     
     print("Construindo e processando grafos...")
     
