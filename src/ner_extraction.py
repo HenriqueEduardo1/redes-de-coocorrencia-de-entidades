@@ -1,17 +1,41 @@
-import os
 import spacy
 from itertools import combinations
 from collections import Counter
 
-# Carregar o modelo do spaCy (Certifique-se de ter feito o download do _trf se for usá-lo)
+# 1. Carregar o modelo do spaCy
 try:
-    # Usando o trf para maior precisão, mas requer mais poder de processamento
     nlp = spacy.load("en_core_web_trf")
 except OSError:
     print("Modelo do spaCy não encontrado. Execute '!python -m spacy download en_core_web_trf'")
     exit()
 
-VALID_ENTITY_LABELS = {"PERSON", "ORG", "GPE", "LOC", "PRODUCT", "EVENT", "WORK_OF_ART", "NORP", "FAC"}
+# 2. IMPLEMENTAÇÃO DO ENTITY RULER
+# Criamos um pipeline de regras que roda ANTES do modelo estatístico (NER)
+ruler = nlp.add_pipe("entity_ruler", before="ner")
+
+# Definimos os padrões do nosso domínio técnico.
+# Usar "LOWER" garante que a busca seja case-insensitive (pega "html", "HTML", "Html").
+tech_patterns = [
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "llm"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "llms"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "large"}, {"LOWER": "language"}, {"LOWER": "model"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "html"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "css"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "url"}, {"LOWER": "filtering"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "text"}, {"LOWER": "extraction"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "language"}, {"LOWER": "classifier"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "pre"}, {"TEXT": "-"}, {"LOWER": "training"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "fine"}, {"TEXT": "-"}, {"LOWER": "tuning"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "reinforcement"}, {"LOWER": "learning"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "rl"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "ai"}]},
+    {"label": "TECH_CONCEPT", "pattern": [{"LOWER": "artificial"}, {"LOWER": "intelligence"}]}
+]
+
+# Adicionamos os padrões ao ruler
+ruler.add_patterns(tech_patterns)
+
+VALID_ENTITY_LABELS = {"PERSON", "ORG", "PRODUCT", "GPE", "LOC", "EVENT", "TECH_CONCEPT"}
 
 def is_valid_entity(ent) -> bool:
     """Filtra entidades inválidas ou irrelevantes."""
@@ -19,7 +43,6 @@ def is_valid_entity(ent) -> bool:
         return False
 
     text = ent.text.strip()
-    # Filtra ruídos comuns de 1 letra
     if len(text) < 2:
         return False
         
@@ -28,22 +51,20 @@ def is_valid_entity(ent) -> bool:
 def standardize_entity(ent) -> str:
     """
     Padronização segura para NER.
-    Evitamos lematizar nomes próprios para não distorcê-los.
     Mantemos siglas em maiúsculo e nomes em formato de título.
+    A lógica lida perfeitamente com os nossos TECH_CONCEPTs.
     """
     text = ent.text.strip()
-    # Se for uma sigla (como AI, GPT, RL), mantém tudo maiúsculo
+    
+    # Se for uma sigla (como AI, GPT, RL, HTML, CSS), mantém tudo maiúsculo
     if text.isupper():
         return text
-    # Caso contrário, padroniza com a primeira letra maiúscula (ex: Google, Wikipedia)
+    
+    # Se for "large language model", vira "Large Language Model"
     return text.title()
 
 def process_sentence_window(text) -> Counter:
-    """
-    JANELA DE SENTENÇA:
-    Otimizado para não estourar a memória (OOM) com modelos Transformer.
-    Quebra o texto previamente usando a marcação de parágrafo dupla.
-    """
+    """JANELA DE SENTENÇA"""
     cooccurrences = Counter()
     paragraphs = text.split("\n\n")
     
@@ -76,10 +97,7 @@ def process_paragraph_window(text) -> Counter:
     return cooccurrences
 
 def process_sliding_window(text, k_tokens=30) -> Counter:
-    """
-    JANELA DESLIZANTE (Proximidade Matemática).
-    k_tokens ajustado para 30 (aprox. contexto de leitura imediata).
-    """
+    """JANELA DESLIZANTE"""
     cooccurrences = Counter()
     paragraphs = text.split("\n\n")
     

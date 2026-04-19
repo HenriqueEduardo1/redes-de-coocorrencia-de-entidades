@@ -7,32 +7,56 @@ from deepmultilingualpunctuation import PunctuationModel
 # Dicionário para correções manuais (Regex -> Substituição)
 # Resolve a fragmentação de entidades gerada pela transcrição do áudio.
 CUSTOM_CORRECTIONS = {
-    # 1. Variações e erros de ChatGPT
+    # 1. Família ChatGPT e Erros Grotescos de STT
+    r'\b[Cc]hachi\s*[Pp][Tt]\s*(\d+)\b': r'ChatGPT \1',
     r'\b[Cc]hachi\s*[Pp][Tt]\b': 'ChatGPT',
+    r'\b[Cc]hachi\s*[Pp]\b': 'ChatGPT',
+    r'\b[Cc]hach[ty]?\b': 'ChatGPT',                 # Cobre "Chach", "Chacht", "Chachy"
+    r'\b[Cc]hasht?\b': 'ChatGPT',                    # Cobre "Chash" e o nó "Chasht" do grafo
+    r'\b[Cc]hash\s*[Aa]pt\b': 'ChatGPT',
+    r'\b[Cc]hash\s*[Pp][Tt]\w*\b': 'ChatGPT',
     r'\b[Cc]hat\s*[Gg]pt\b': 'ChatGPT',
-    r'\b[Cc][Hh]\s*[Gg][Pp][Tt]\b': 'ChatGPT',       # Corrige "CH GPT"
-    r'\b[Cc]hash\s*[Aa]pt\b': 'ChatGPT',             # Corrige "Chash Apt"
+    r'\b[Cc][Hh]\s*[Gg][Pp][Tt]\b': 'ChatGPT',
+    r'\bchpt\b': 'ChatGPT',
+    r'\b[Cc]hbt\b': 'ChatGPT',                       # Nó "Chbt" solto no grafo
 
-    # 2. Variações e erros de OpenAI
-    r'\b[Oo]pen\s*[Aa][Aa]?[Ii]-?\b': 'OpenAI',      # Corrige "Open Aai-" e "Open Ai"
-    r'\b[Oo]peni\b': 'OpenAI',                       # Corrige "Openi"
-    r'\b[Oo]pening\*s[Ee]y\b': 'OpenAI',             # Corrige "Opening*ey"
+    # 2. Família GPT (Padronização de versões e capitalização)
+    r'\b[Gg]bt\b': 'GPT',                            # Nó "Gbt" (áudio de GPT)
+    r'\b[Gg][Pp][Dd]\s*2\b|\b[Gg][Pp][Dd]2\b': 'GPT-2', 
+    r'\b[Gg][Pp][Tt]\s*2\b|\b[Gg][Pp][Tt]2\b': 'GPT-2',
+    r'\b[Gg][Pp][Tt]\s*3\b|\b[Gg][Pp][Tt]3\b': 'GPT-3',
+    r'\b[Gg][Pp][Tt]\s*4\b|\b[Gg][Pp][Tt]4\b': 'GPT-4',
+    r'\b[Gg][Pp][Tt]\s*4[Oo]\b|\b[Gg][Pp][Tt]4[Oo]\b': 'GPT-4o', # Nó "GPT4O" / "Gpt4o"
+    r'\b[Gg][Pp][Tt]ini\b': 'Gemini',                # Nó "GPTini" (confusão de áudio)
+    r'\bgpt\b': 'GPT',                               # Força maiúscula para o standardize_entity
 
-    # 3. Variações de Modelos GPT
-    r'\b[Gg][Pp][Dd]\s*2\b|\b[Gg][Pp][Dd]2\b': 'GPT-2', # Corrige "Gpd2"
-    r'\b[Gg][Pp][Tt]\s*2\b|\b[Gg][Pp][Tt]2\b': 'GPT-2', # Padroniza "Gpt2" e "GPT 2"
-    r'\b[Gg][Pp][Tt]\s*4\b|\b[Gg][Pp][Tt]4\b': 'GPT-4', # Padroniza "GPT 4"
-    r'\b[Gg][Pp][Tt]\s*3\b|\b[Gg][Pp][Tt]3\b': 'GPT-3', # Padroniza "Gpt3" e "GPT 3",
+    # 3. Empresas e Concorrentes
+    r'\b[Oo]pen\s*[Aa]?[Ii]-?\b': 'OpenAI',          
+    r'\b[Oo]peni\b': 'OpenAI',                       
+    r'\b[Oo]pening\s*[Ee]y\b': 'OpenAI',             # Corrigido o regex (antes com asterisco)
+    r'\b[Aa]nthropic\b': 'Anthropic',            
+    r'\b[Dd]eep\s*[Ss]eek\b': 'DeepSeek',            # Junta o nó "Deep Seek"
+    r'\b[Dd]eep\s*[Mm]ind\b': 'DeepMind',            # Junta o nó "Deep Mind"
+    r'\b[Gg]ooglecom\b': 'Google',                   # Nó "Googlecom"
+    r'\b[Hh]ugging\s*[Ff]ace\b': 'HuggingFace',      
 
-    # 4. Variações do Dataset Common Crawl
-    r'\b[Cc]ommon\s*[Cc]raw\b': 'Common Crawl',      # Corrige "Common Craw"
-    r'\b[Cc]ommon\s*[Cc]w\b': 'Common Crawl',        # Corrige "Common Cw"
+    # 4. Conceitos Técnicos e Modelos Específicos
+    r'\b[Aa]lpha[Oo]\b|\b[Aa]lphag\b': 'AlphaGo',    # Nós "Alphao" e "Alphag" da imagem
+    r'\b[Ff]ine\s*[Ww]eb\b': 'FineWeb',              
+    r'\b[Ff]ine\s*[Tt]uning\b|\b[Ff]ine-[Tt]uning\b': 'Fine-Tuning', # Une "Fine Tuning" e "Fine-Tuning"
+    r'\b[Rr]hf\b': 'RLHF',                           # Nó "Rhf" perto do cluster de RL
+    r'\b[Rr]einforcement\s*[Ll]earning\b': 'RL',     # Opcional: Funde os dois nós gigantes
+    r'\b[Cc]ommon\s*[Cc]raw\b|\b[Cc]ommon\s*[Cc][Ww]\b': 'Common Crawl',
+    
+    # 5. Forçando Capitalização de Siglas para o spaCy
+    r'\bllm\b': 'LLM',                               # Força "LLM" maiúsculo para o seu padronizador
+    r'\bllms\b': 'LLMs',                             # Mantém plural, mas capitaliza
+    r'\brl\b': 'RL',                                 # Força "RL" maiúsculo
+    r'\bterabyt\b': 'terabytes',
 
-    # 5. Agrupamento de Nomes Próprios
-    # Junta as palavras para garantir que o spaCy entenda como uma entidade única
-    r'\b[Ff]ine\s*[Ww]eb\b': 'FineWeb',              # Corrige "Fine Web"
-    r'\b[Hh]ugging\s*[Ff]ace\b': 'HuggingFace',      # Corrige "Hugging Face"
-    r'\b[Gg]ithub\b': 'GitHub',                      # Padronização de capitalização
+    # 6. Limpeza de Nomes Próprios Específicos do Grafo
+    r'\b[Jj]ane\s*[Aa]ustin\'[Ss]?\b': 'Jane Austen', # Nó "Jane Austin'S"
+    r'\b[Aa]llen[,]?\s*[Ii]nstitute\s*[Oo]f\s*[Aa]rtificial\s*[Ii]ntelligence\b': 'Allen Institute for AI', # Encurta o nó gigante
 }
 
 punct_model = PunctuationModel()

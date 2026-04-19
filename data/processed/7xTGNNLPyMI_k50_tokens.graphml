@@ -2,19 +2,24 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key id="d0" for="edge" attr.name="weight" attr.type="long" />
   <graph edgedefault="undirected">
-    <node id="Fineweb" />
+    <node id="Chatgpt" />
+    <node id="Pre-Training" />
     <node id="Huggingface" />
+    <node id="Fineweb" />
+    <node id="Llm" />
     <node id="Openai" />
     <node id="Anthropic" />
     <node id="Google" />
     <node id="CW" />
     <node id="Common Crawl" />
+    <node id="HTML" />
+    <node id="Text Extraction" />
+    <node id="CSS" />
+    <node id="Language Classifier" />
     <node id="Huging Phase" />
     <node id="860" />
     <node id="86C" />
     <node id="GPT" />
-    <node id="Transformers" />
-    <node id="Windows" />
     <node id="Lm C" />
     <node id="H100S" />
     <node id="Lambda" />
@@ -41,14 +46,19 @@
     <node id="Camala Harris" />
     <node id="Inc" />
     <node id="Sim" />
-    <node id="Instruct Gpt" />
+    <node id="AI" />
+    <node id="Gbt" />
+    <node id="Imore Start" />
+    <node id="Llms" />
     <node id="Opena" />
     <node id="Assistant" />
+    <node id="Persona" />
+    <node id="Vibe" />
+    <node id="Ultra" />
     <node id="Chpt" />
     <node id="Paris" />
     <node id="Cruz" />
     <node id="Tom Cruz" />
-    <node id="American" />
     <node id="John Baraso" />
     <node id="Us" />
     <node id="Genis Khan" />
@@ -59,99 +69,119 @@
     <node id="Buffalo Sabers" />
     <node id="Mol 7B" />
     <node id="Buffalo Savers" />
-    <node id="Buffalo" />
-    <node id="Stanley Cups" />
-    <node id="Bingcom" />
     <node id="Bing" />
+    <node id="Bingcom" />
     <node id="Ed" />
     <node id="Chachi P" />
     <node id="Dominic Hasek" />
-    <node id="Jane Austin'S" />
-    <node id="Pride And Prejudice" />
     <node id="Chach" />
+    <node id="Jane Austin'S" />
     <node id="Genos" />
     <node id="LMS" />
     <node id="Spr And Prejudice" />
     <node id="Falcon" />
-    <node id="Gpt3" />
     <node id="Open" />
     <node id="Chasht" />
-    <node id="Allen, Ai" />
+    <node id="Allen," />
+    <node id="Ai" />
     <node id="Almo" />
-    <node id="Allen, Institute Of Artificial Intelligence" />
+    <node id="Allen, Institute Of" />
+    <node id="Artificial Intelligence" />
     <node id="Theo" />
     <node id="Chashi Pt40" />
-    <node id="Dental" />
-    <node id="Tik" />
+    <node id="Python" />
+    <node id="The Python Interpreter" />
     <node id="Tools" />
     <node id="World" />
-    <node id="Llm" />
+    <node id="Ubiquitous" />
+    <node id="Fine-Tuning" />
+    <node id="Reinforcement Learning" />
+    <node id="Teck" />
+    <node id="Emily" />
     <node id="Lm" />
-    <node id="Phd" />
+    <node id="Solutions" />
+    <node id="RL" />
     <node id="Deep Seek" />
     <node id="Dc Kai" />
     <node id="China" />
-    <node id="Car1" />
     <node id="DC" />
+    <node id="Car1" />
     <node id="Deccom" />
     <node id="R1" />
-    <node id="Chatcom" />
-    <node id="Chinese" />
     <node id="Macbook" />
     <node id="Precision" />
     <node id="Together" />
     <node id="DT" />
-    <node id="Gpt-4 40 Mini" />
+    <node id="01 03" />
+    <node id="Mini High" />
     <node id="Opening Ey" />
+    <node id="Gpt-4 40 Mini" />
+    <node id="Deep Seek R1" />
     <node id="01" />
-    <node id="O3" />
     <node id="GPT-4 R" />
-    <node id="Deep Mind" />
+    <node id="Gemini 2.0" />
+    <node id="Gemini" />
     <node id="Go" />
+    <node id="Deep Mind" />
     <node id="Alphago" />
-    <node id="Leas Dull" />
+    <node id="LEL" />
+    <node id="Lisa Dole" />
     <node id="Alphao" />
     <node id="Youtube" />
     <node id="Leis Do" />
     <node id="Chbt" />
     <node id="Pelicans" />
+    <node id="Infinity" />
+    <node id="Gap" />
+    <node id="Rhf" />
     <node id="GPT 40" />
     <node id="El Marina" />
-    <node id="Gemini" />
     <node id="MIT" />
-    <node id="Usual Suspects" />
-    <node id="Xai" />
-    <node id="Sonet" />
-    <node id="Ai News" />
     <node id="Swix" />
-    <node id="Gem Googlecom" />
-    <node id="Ai Studio-" />
+    <node id="Friends" />
+    <node id="Gem" />
+    <node id="Googlecom" />
     <node id="Fp8" />
     <node id="Bf16" />
-    <node id="Pelican" />
-    <node id="The Macbook Pro" />
     <node id="Lm Studio" />
-    <node id="Chashi Ptacom" />
-    <node id="Swiss" />
+    <node id="The Macbook Pro" />
     <node id="O03 Mini" />
     <node id="Paradigm" />
-    <edge source="Fineweb" target="Huggingface">
+    <edge source="Chatgpt" target="Pre-Training">
       <data key="d0">2</data>
     </edge>
-    <edge source="Fineweb" target="Openai">
-      <data key="d0">3</data>
-    </edge>
-    <edge source="Fineweb" target="Anthropic">
-      <data key="d0">3</data>
-    </edge>
-    <edge source="Fineweb" target="Google">
-      <data key="d0">3</data>
-    </edge>
-    <edge source="Fineweb" target="Huging Phase">
+    <edge source="Pre-Training" target="Huggingface">
       <data key="d0">1</data>
     </edge>
-    <edge source="Fineweb" target="Lm C">
+    <edge source="Pre-Training" target="Llm">
       <data key="d0">2</data>
+    </edge>
+    <edge source="Pre-Training" target="Paris">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Pre-Training" target="Chach">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Pre-Training" target="Openai">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Pre-Training" target="Fine-Tuning">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Pre-Training" target="Reinforcement Learning">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Pre-Training" target="Llms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Pre-Training" target="RL">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Huggingface" target="Fineweb">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Huggingface" target="Llm">
+      <data key="d0">1</data>
     </edge>
     <edge source="Huggingface" target="Openai">
       <data key="d0">1</data>
@@ -165,6 +195,78 @@
     <edge source="Huggingface" target="Falcon 7B">
       <data key="d0">1</data>
     </edge>
+    <edge source="Fineweb" target="Llm">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Fineweb" target="Openai">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Fineweb" target="Anthropic">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Fineweb" target="Google">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Fineweb" target="Language Classifier">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Fineweb" target="Huging Phase">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Fineweb" target="Lm C">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Llm" target="Openai">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Llm" target="Anthropic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="Google">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="AI">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Llm" target="Gbt">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="Llms">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="Llm" target="Dominic Kek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="Open">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="Chasht">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="Allen,">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Llm" target="Ai">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Llm" target="Almo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="Emily">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="Lm">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Llm" target="Reinforcement Learning">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="RL">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llm" target="El Marina">
+      <data key="d0">1</data>
+    </edge>
     <edge source="Openai" target="Anthropic">
       <data key="d0">1</data>
     </edge>
@@ -174,20 +276,17 @@
     <edge source="Openai" target="GPT">
       <data key="d0">5</data>
     </edge>
-    <edge source="Openai" target="Instruct Gpt">
-      <data key="d0">2</data>
-    </edge>
     <edge source="Openai" target="Opena">
       <data key="d0">1</data>
     </edge>
     <edge source="Openai" target="Assistant">
       <data key="d0">1</data>
     </edge>
+    <edge source="Openai" target="AI">
+      <data key="d0">2</data>
+    </edge>
     <edge source="Openai" target="Falcon">
       <data key="d0">1</data>
-    </edge>
-    <edge source="Openai" target="Gpt3">
-      <data key="d0">3</data>
     </edge>
     <edge source="Openai" target="Chach">
       <data key="d0">3</data>
@@ -204,47 +303,53 @@
     <edge source="Openai" target="Chpt">
       <data key="d0">1</data>
     </edge>
-    <edge source="Openai" target="Usual Suspects">
+    <edge source="Openai" target="Reinforcement Learning">
       <data key="d0">1</data>
     </edge>
-    <edge source="Openai" target="Xai">
+    <edge source="Openai" target="Deep Seek R1">
       <data key="d0">1</data>
     </edge>
-    <edge source="Openai" target="Meta">
+    <edge source="Openai" target="Gemini">
       <data key="d0">1</data>
     </edge>
-    <edge source="Openai" target="LMS">
+    <edge source="Openai" target="Gem">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Openai" target="Googlecom">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Openai" target="Fine-Tuning">
       <data key="d0">1</data>
     </edge>
     <edge source="Anthropic" target="Google">
       <data key="d0">1</data>
     </edge>
-    <edge source="Google" target="Bingcom">
+    <edge source="Google" target="AI">
       <data key="d0">1</data>
     </edge>
-    <edge source="Google" target="Gemini">
+    <edge source="Google" target="Gemini 2.0">
       <data key="d0">2</data>
     </edge>
-    <edge source="Google" target="Deep Seek">
-      <data key="d0">1</data>
+    <edge source="Google" target="Gemini">
+      <data key="d0">3</data>
     </edge>
     <edge source="Google" target="MIT">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Google" target="Usual Suspects">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Google" target="Xai">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Google" target="Meta">
       <data key="d0">1</data>
     </edge>
     <edge source="CW" target="Common Crawl">
       <data key="d0">1</data>
     </edge>
+    <edge source="HTML" target="Text Extraction">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="HTML" target="CSS">
+      <data key="d0">1</data>
+    </edge>
     <edge source="860" target="86C">
       <data key="d0">2</data>
+    </edge>
+    <edge source="GPT" target="AI">
+      <data key="d0">1</data>
     </edge>
     <edge source="GPT" target="Orson Kovats">
       <data key="d0">2</data>
@@ -252,10 +357,10 @@
     <edge source="GPT" target="Ed">
       <data key="d0">2</data>
     </edge>
-    <edge source="GPT" target="GPT 40">
-      <data key="d0">1</data>
+    <edge source="GPT" target="RL">
+      <data key="d0">3</data>
     </edge>
-    <edge source="Transformers" target="Windows">
+    <edge source="GPT" target="GPT 40">
       <data key="d0">1</data>
     </edge>
     <edge source="H100S" target="Lambda">
@@ -278,15 +383,6 @@
     </edge>
     <edge source="Llama 3" target="Meta">
       <data key="d0">2</data>
-    </edge>
-    <edge source="Meta" target="Dominic Kek">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Meta" target="Usual Suspects">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Meta" target="Xai">
-      <data key="d0">1</data>
     </edge>
     <edge source="405B" target="Hyperbolic">
       <data key="d0">1</data>
@@ -351,7 +447,7 @@
     <edge source="LM" target="Camala Harris">
       <data key="d0">1</data>
     </edge>
-    <edge source="LM" target="Swiss">
+    <edge source="LM" target="Llms">
       <data key="d0">1</data>
     </edge>
     <edge source="Ronda Santis" target="Joe Biden">
@@ -366,10 +462,79 @@
     <edge source="Inc" target="Sim">
       <data key="d0">1</data>
     </edge>
-    <edge source="Instruct Gpt" target="Opena">
+    <edge source="AI" target="Gbt">
       <data key="d0">1</data>
     </edge>
-    <edge source="Instruct Gpt" target="Assistant">
+    <edge source="AI" target="Paris">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Allen, Institute Of">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Artificial Intelligence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Theo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Fine-Tuning">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Gemini 2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Reinforcement Learning">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Go">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Deep Mind">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Swix">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="AI" target="Friends">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="AI" target="Gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Gem">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="AI" target="Googlecom">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Imore Start" target="Llms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llms" target="Ultra">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Llms" target="RL">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="Llms" target="Open">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llms" target="Reinforcement Learning">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llms" target="Deep Seek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llms" target="Gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llms" target="Go">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Llms" target="Solutions">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Persona" target="Vibe">
       <data key="d0">1</data>
     </edge>
     <edge source="Chpt" target="Paris">
@@ -381,9 +546,6 @@
     <edge source="Cruz" target="Tom Cruz">
       <data key="d0">1</data>
     </edge>
-    <edge source="Cruz" target="American">
-      <data key="d0">1</data>
-    </edge>
     <edge source="Cruz" target="John Baraso">
       <data key="d0">1</data>
     </edge>
@@ -393,9 +555,6 @@
     <edge source="Cruz" target="Genis Khan">
       <data key="d0">2</data>
     </edge>
-    <edge source="Tom Cruz" target="American">
-      <data key="d0">1</data>
-    </edge>
     <edge source="Tom Cruz" target="John Baraso">
       <data key="d0">1</data>
     </edge>
@@ -403,24 +562,6 @@
       <data key="d0">1</data>
     </edge>
     <edge source="Tom Cruz" target="Genis Khan">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="American" target="John Baraso">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="American" target="Us">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="American" target="Genis Khan">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="American" target="Orson Kovats">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="American" target="Falcon 7B">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="American" target="Orson Kovat">
       <data key="d0">2</data>
     </edge>
     <edge source="John Baraso" target="Us">
@@ -433,9 +574,6 @@
       <data key="d0">2</data>
     </edge>
     <edge source="Falcon 7B" target="Orson Kovats">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="Falcon 7B" target="Orson Kovat">
       <data key="d0">1</data>
     </edge>
     <edge source="Orson Kovats" target="Orson Kovat">
@@ -448,34 +586,16 @@
       <data key="d0">1</data>
     </edge>
     <edge source="Buffalo Sabers" target="Buffalo Savers">
-      <data key="d0">1</data>
+      <data key="d0">2</data>
     </edge>
-    <edge source="Buffalo Sabers" target="Buffalo">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Buffalo Sabers" target="Stanley Cups">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Buffalo Savers" target="Buffalo">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Buffalo" target="Stanley Cups">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Bingcom" target="Bing">
+    <edge source="Bing" target="Bingcom">
       <data key="d0">1</data>
     </edge>
     <edge source="Chachi P" target="Dominic Hasek">
       <data key="d0">1</data>
     </edge>
-    <edge source="Jane Austin'S" target="Pride And Prejudice">
+    <edge source="Chach" target="Jane Austin'S">
       <data key="d0">2</data>
-    </edge>
-    <edge source="Jane Austin'S" target="Chach">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="Pride And Prejudice" target="Chach">
-      <data key="d0">4</data>
     </edge>
     <edge source="Genos" target="LMS">
       <data key="d0">1</data>
@@ -486,37 +606,148 @@
     <edge source="LMS" target="Spr And Prejudice">
       <data key="d0">1</data>
     </edge>
-    <edge source="Falcon" target="Gpt3">
+    <edge source="Open" target="Chasht">
       <data key="d0">1</data>
     </edge>
-    <edge source="Open" target="Chasht">
+    <edge source="Open" target="Reinforcement Learning">
       <data key="d0">1</data>
     </edge>
     <edge source="Open" target="Deep Seek">
       <data key="d0">1</data>
     </edge>
-    <edge source="Allen, Ai" target="Almo">
+    <edge source="Allen," target="Ai">
       <data key="d0">1</data>
     </edge>
-    <edge source="Allen, Institute Of Artificial Intelligence" target="Theo">
+    <edge source="Allen," target="Almo">
       <data key="d0">1</data>
     </edge>
-    <edge source="Dental" target="Tik">
+    <edge source="Ai" target="Almo">
       <data key="d0">1</data>
+    </edge>
+    <edge source="Allen, Institute Of" target="Artificial Intelligence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Allen, Institute Of" target="Theo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Artificial Intelligence" target="Theo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Python" target="The Python Interpreter">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Python" target="Tools">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Python" target="Ubiquitous">
+      <data key="d0">2</data>
     </edge>
     <edge source="Tools" target="World">
       <data key="d0">1</data>
     </edge>
-    <edge source="Llm" target="Lm">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="Llm" target="Phd">
+    <edge source="Fine-Tuning" target="Gap">
       <data key="d0">1</data>
     </edge>
-    <edge source="Llm" target="El Marina">
+    <edge source="Fine-Tuning" target="RL">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Fine-Tuning" target="GPT 40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Fine-Tuning" target="Reinforcement Learning">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Teck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Solutions">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Deep Seek">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="DC">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Deccom">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="01 03">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Mini High">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Opening Ey">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="RL">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Gpt-4 40 Mini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Go">
       <data key="d0">2</data>
     </edge>
-    <edge source="Lm" target="Phd">
+    <edge source="Reinforcement Learning" target="Deep Mind">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="LEL">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Alphago">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Lisa Dole">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Alphao">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Youtube">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Leis Do">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="Infinity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="O03 Mini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Reinforcement Learning" target="GPT 40">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Emily" target="RL">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="RL" target="Opening Ey">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="RL" target="Gpt-4 40 Mini">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="RL" target="Gemini">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="RL" target="Infinity">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="RL" target="Rhf">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="RL" target="Go">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="RL" target="GPT 40">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="RL" target="O03 Mini">
       <data key="d0">1</data>
     </edge>
     <edge source="Deep Seek" target="Dc Kai">
@@ -531,14 +762,11 @@
     <edge source="Deep Seek" target="Car1">
       <data key="d0">1</data>
     </edge>
-    <edge source="Deep Seek" target="MIT">
-      <data key="d0">2</data>
-    </edge>
     <edge source="Deep Seek" target="Macbook">
-      <data key="d0">2</data>
+      <data key="d0">1</data>
     </edge>
     <edge source="Deep Seek" target="Precision">
-      <data key="d0">3</data>
+      <data key="d0">2</data>
     </edge>
     <edge source="Deep Seek" target="Fp8">
       <data key="d0">1</data>
@@ -549,7 +777,13 @@
     <edge source="Dc Kai" target="China">
       <data key="d0">1</data>
     </edge>
-    <edge source="Car1" target="DC">
+    <edge source="DC" target="Car1">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="DC" target="Deccom">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="DC" target="R1">
       <data key="d0">1</data>
     </edge>
     <edge source="Car1" target="Deccom">
@@ -561,19 +795,7 @@
     <edge source="Car1" target="DT">
       <data key="d0">1</data>
     </edge>
-    <edge source="DC" target="Deccom">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="DC" target="R1">
-      <data key="d0">1</data>
-    </edge>
     <edge source="Deccom" target="R1">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="R1" target="Together">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="Chatcom" target="Chinese">
       <data key="d0">1</data>
     </edge>
     <edge source="Macbook" target="Precision">
@@ -594,31 +816,31 @@
     <edge source="Precision" target="Bf16">
       <data key="d0">2</data>
     </edge>
-    <edge source="Gpt-4 40 Mini" target="Opening Ey">
+    <edge source="01 03" target="Mini High">
       <data key="d0">1</data>
     </edge>
-    <edge source="01" target="O3">
+    <edge source="Opening Ey" target="Gpt-4 40 Mini">
       <data key="d0">1</data>
     </edge>
     <edge source="01" target="GPT-4 R">
       <data key="d0">1</data>
     </edge>
-    <edge source="O3" target="GPT-4 R">
+    <edge source="Gemini" target="Gem">
       <data key="d0">1</data>
     </edge>
-    <edge source="Deep Mind" target="Go">
+    <edge source="Gemini" target="Googlecom">
       <data key="d0">1</data>
     </edge>
-    <edge source="Deep Mind" target="Alphago">
+    <edge source="Go" target="Deep Mind">
       <data key="d0">1</data>
     </edge>
     <edge source="Go" target="Alphago">
-      <data key="d0">2</data>
-    </edge>
-    <edge source="Go" target="Leas Dull">
-      <data key="d0">2</data>
+      <data key="d0">1</data>
     </edge>
     <edge source="Go" target="Paradigm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="Deep Mind" target="Alphago">
       <data key="d0">1</data>
     </edge>
     <edge source="Alphago" target="Alphao">
@@ -642,40 +864,22 @@
     <edge source="Youtube" target="Lm Studio">
       <data key="d0">1</data>
     </edge>
-    <edge source="Youtube" target="Chashi Ptacom">
-      <data key="d0">1</data>
-    </edge>
     <edge source="Chbt" target="Pelicans">
       <data key="d0">2</data>
     </edge>
     <edge source="GPT 40" target="O03 Mini">
       <data key="d0">1</data>
     </edge>
-    <edge source="Gemini" target="Sonet">
+    <edge source="Swix" target="Friends">
       <data key="d0">1</data>
     </edge>
-    <edge source="Gemini" target="Gem Googlecom">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Gemini" target="Ai Studio-">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Usual Suspects" target="Xai">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Ai News" target="Swix">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="Gem Googlecom" target="Ai Studio-">
+    <edge source="Gem" target="Googlecom">
       <data key="d0">1</data>
     </edge>
     <edge source="Fp8" target="Bf16">
       <data key="d0">1</data>
     </edge>
-    <edge source="Pelican" target="The Macbook Pro">
-      <data key="d0">1</data>
-    </edge>
-    <edge source="The Macbook Pro" target="Lm Studio">
+    <edge source="Lm Studio" target="The Macbook Pro">
       <data key="d0">1</data>
     </edge>
   </graph>
