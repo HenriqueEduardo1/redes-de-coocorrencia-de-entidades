@@ -5,14 +5,12 @@ from ner_extraction import process_sentence_window, process_paragraph_window, pr
 def build_cooccurrence_graph(cooccurrences):
     """
     Constrói um grafo não direcionado (nx.Graph) a partir das coocorrências extraídas.
-    O peso de cada aresta será a frequência de coocorrência.
     """
     G = nx.Graph()
+    # Como o Counter do ner_extraction já somou todas as ocorrências de um mesmo par,
+    # os pares aqui são únicos. Não precisamos do 'if G.has_edge', basta adicionar.
     for (ent1, ent2), weight in cooccurrences.items():
-        if G.has_edge(ent1, ent2):
-            G[ent1][ent2]['weight'] += weight
-        else:
-            G.add_edge(ent1, ent2, weight=weight)
+        G.add_edge(ent1, ent2, weight=weight)
     return G
 
 def calculate_graph_metrics(G):
@@ -28,8 +26,7 @@ def calculate_graph_metrics(G):
         "density": nx.density(G),
     }
 
-    # As vezes o grafo é desconectado (múltiplos  componentes).
-    # Para calcular o diâmetro, precisamos focar no maior componente gigante (Giant Component).
+    # Foca no maior componente gigante (Giant Component) para o diâmetro
     components = sorted(nx.connected_components(G), key=len, reverse=True)
     if components:
         giant = G.subgraph(components[0])
@@ -46,7 +43,7 @@ def calculate_graph_metrics(G):
 
 def export_graph(G, window_name, video_id):
     """
-    Exporta o grafo para .graphml .
+    Exporta o grafo para .graphml e imprime as métricas na tela.
     """
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     processed_dir = os.path.join(project_root, "data", "processed")
@@ -54,29 +51,39 @@ def export_graph(G, window_name, video_id):
     
     graphml_path = os.path.join(processed_dir, f"{video_id}_{window_name}.graphml")
     nx.write_graphml(G, graphml_path)
-    print(f"[{window_name}] Grafo exportado: {graphml_path}")
+    
+    # Imprime os resultados analíticos
+    metrics = calculate_graph_metrics(G)
+    print(f"\n--- Grafo: {window_name.upper()} ---")
+    print(f"Nós: {metrics.get('num_nodes', 0)} | Arestas: {metrics.get('num_edges', 0)}")
+    print(f"Densidade: {metrics.get('density', 0):.4f}")
+    print(f"Nós no Componente Gigante: {metrics.get('giant_component_nodes', 0)}")
+    print(f"Diâmetro do Componente Gigante: {metrics.get('diameter', 'N/A')}")
+    print(f"-> Salvo em: {graphml_path}")
 
 def main():
     video_id = "7xTGNNLPyMI"
     
-    # Agora o Graph Builder procura diretamente o texto já LIMPO e PROCESSADO
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     clean_text_path = os.path.join(project_root, "data", "processed", f"{video_id}_clean.txt")
     
     if not os.path.exists(clean_text_path):
-        print(f"Arquivo limpo não encontrado: {clean_text_path}.")
-        print("Certifique-se de executar 'python src/text_processing.py' primeiro.")
+        print(f"[ERRO] Arquivo limpo não encontrado: {clean_text_path}.")
+        print("Certifique-se de executar 'text_processing.py' primeiro.")
         return
         
+    print("Lendo o arquivo processado...")
     with open(clean_text_path, 'r', encoding='utf-8') as f:
         clean_text_content = f.read()
 
-    print("Extraindo coocorrências via spaCy (Isso pode levar alguns minutos)...")
+    print("\nExtraindo coocorrências via spaCy (Isso pode levar alguns minutos)...")
     sent_cooc = process_sentence_window(clean_text_content)
     para_cooc = process_paragraph_window(clean_text_content)
-    k_cooc = process_sliding_window(clean_text_content, k_words=50)
     
-    print("Construindo e processando grafos...")
+    # Correção: O parâmetro agora é k_tokens, alinhado com a nossa refatoração
+    k_cooc = process_sliding_window(clean_text_content, k_tokens=50)
+    
+    print("\nConstruindo, analisando e exportando grafos...")
     
     # 1. Frase
     G_sent = build_cooccurrence_graph(sent_cooc)
@@ -86,9 +93,11 @@ def main():
     G_para = build_cooccurrence_graph(para_cooc)
     export_graph(G_para, "paragrafo", video_id)
     
-    # 3. K-Palavras (K=50)
+    # 3. K-Tokens (K=50)
     G_k = build_cooccurrence_graph(k_cooc)
-    export_graph(G_k, "k50_palavras", video_id)
+    export_graph(G_k, "k50_tokens", video_id)
+    
+    print("\nPipeline finalizado com sucesso!")
     
 if __name__ == "__main__":
     main()
