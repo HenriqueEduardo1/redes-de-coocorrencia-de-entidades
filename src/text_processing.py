@@ -7,56 +7,74 @@ from deepmultilingualpunctuation import PunctuationModel
 # Dicionário para correções manuais (Regex -> Substituição)
 # Resolve a fragmentação de entidades gerada pela transcrição do áudio.
 CUSTOM_CORRECTIONS = {
-    # 1. Família ChatGPT e Erros Grotescos de STT
+    # 1. Família ChatGPT e Erros Extremos de STT
     r'\b[Cc]hachi\s*[Pp][Tt]\s*(\d+)\b': r'ChatGPT \1',
     r'\b[Cc]hachi\s*[Pp][Tt]\b': 'ChatGPT',
     r'\b[Cc]hachi\s*[Pp]\b': 'ChatGPT',
     r'\b[Cc]hach[ty]?\b': 'ChatGPT',                 # Cobre "Chach", "Chacht", "Chachy"
-    r'\b[Cc]hasht?\b': 'ChatGPT',                    # Cobre "Chash" e o nó "Chasht" do grafo
+    r'\b[Cc]hasht?\b': 'ChatGPT',                    # Cobre "Chash" e "Chasht"
     r'\b[Cc]hash\s*[Aa]pt\b': 'ChatGPT',
     r'\b[Cc]hash\s*[Pp][Tt]\w*\b': 'ChatGPT',
+    r'\b[Cc]hashi\s*[Pp]t40\b': 'ChatGPT 4o',        # Corrige "Chashi Pt40"
     r'\b[Cc]hat\s*[Gg]pt\b': 'ChatGPT',
     r'\b[Cc][Hh]\s*[Gg][Pp][Tt]\b': 'ChatGPT',
     r'\bchpt\b': 'ChatGPT',
-    r'\b[Cc]hbt\b': 'ChatGPT',                       # Nó "Chbt" solto no grafo
+    r'\b[Cc]hbt\b': 'ChatGPT',                       # Nó "Chbt"
 
-    # 2. Família GPT (Padronização de versões e capitalização)
-    r'\b[Gg]bt\b': 'GPT',                            # Nó "Gbt" (áudio de GPT)
+    # 2. Família GPT e Variações (Corrigindo o zero pelo "O")
+    r'\b[Gg]bt\b': 'GPT',                            # Nó "Gbt"
+    r'\b[Gg]bt2\b': 'GPT-2',                         # Nó "Gbt2"
     r'\b[Gg][Pp][Dd]\s*2\b|\b[Gg][Pp][Dd]2\b': 'GPT-2', 
     r'\b[Gg][Pp][Tt]\s*2\b|\b[Gg][Pp][Tt]2\b': 'GPT-2',
     r'\b[Gg][Pp][Tt]\s*3\b|\b[Gg][Pp][Tt]3\b': 'GPT-3',
     r'\b[Gg][Pp][Tt]\s*4\b|\b[Gg][Pp][Tt]4\b': 'GPT-4',
-    r'\b[Gg][Pp][Tt]\s*4[Oo]\b|\b[Gg][Pp][Tt]4[Oo]\b': 'GPT-4o', # Nó "GPT4O" / "Gpt4o"
-    r'\b[Gg][Pp][Tt]ini\b': 'Gemini',                # Nó "GPTini" (confusão de áudio)
-    r'\bgpt\b': 'GPT',                               # Força maiúscula para o standardize_entity
+    r'\b[Gg][Pp][Tt]\s*40\b|\b[Gg][Pp][Tt]40\b': 'GPT-4o', # Transcrição leu "40" em vez de "4o"
+    r'\b[Gg]pt-4\s*40\s*[Mm]ini\b': 'GPT-4o Mini',   # Nó "Gpt-4 40 Mini"
+    r'\b[Gg][Pp][Tt]ini\b': 'Gemini',                
+    r'\bgpt\b': 'GPT',
+    r'\b[Oo]03\s*[Mm]ini\b': 'o3-mini',              # Nó "O03 Mini"
 
-    # 3. Empresas e Concorrentes
+    # 3. Empresas, Laboratórios e Hardware
     r'\b[Oo]pen\s*[Aa]?[Ii]-?\b': 'OpenAI',          
     r'\b[Oo]peni\b': 'OpenAI',                       
-    r'\b[Oo]pening\s*[Ee]y\b': 'OpenAI',             # Corrigido o regex (antes com asterisco)
+    r'\b[Oo]pening\s*[Ee]y\b|\b[Oo]pena\b': 'OpenAI', # Corrigido "Opening Ey" e "Opena"
     r'\b[Aa]nthropic\b': 'Anthropic',            
-    r'\b[Dd]eep\s*[Ss]eek\b': 'DeepSeek',            # Junta o nó "Deep Seek"
-    r'\b[Dd]eep\s*[Mm]ind\b': 'DeepMind',            # Junta o nó "Deep Mind"
-    r'\b[Gg]ooglecom\b': 'Google',                   # Nó "Googlecom"
-    r'\b[Hh]ugging\s*[Ff]ace\b': 'HuggingFace',      
+    r'\b[Dd]eep\s*[Ss]eek\b': 'DeepSeek',            
+    r'\b[Dd]eccom\b|\b[Dd]c\s*[Kk]ai\b': 'DeepSeek', # "Deccom" e "Dc Kai" no contexto do DeepSeek
+    r'\b[Dd]eep\s*[Mm]ind\b': 'DeepMind',            
+    r'\b[Gg]ooglecom\b': 'Google',                   
+    r'\b[Hh]ugging\s*[Ff]ace\b|\b[Hh]uging\s*[Pp]hase\b': 'HuggingFace', # Corrigido "Huging Phase"
+    r'\b[Hh]100[Ss]\b|\b[Hh]100\s*[Gg]pu-?\b': 'H100', # Limpa variações da GPU H100
+    r'\b[Bb]f16\b': 'BF16',
+    r'\b[Ff]p8\b': 'FP8',
 
-    # 4. Conceitos Técnicos e Modelos Específicos
-    r'\b[Aa]lpha[Oo]\b|\b[Aa]lphag\b': 'AlphaGo',    # Nós "Alphao" e "Alphag" da imagem
+    # 4. Conceitos Técnicos e Modelos
+    r'\b[Aa]lpha[Oo]\b|\b[Aa]lphag\b': 'AlphaGo',    
     r'\b[Ff]ine\s*[Ww]eb\b': 'FineWeb',              
-    r'\b[Ff]ine\s*[Tt]uning\b|\b[Ff]ine-[Tt]uning\b': 'Fine-Tuning', # Une "Fine Tuning" e "Fine-Tuning"
-    r'\b[Rr]hf\b': 'RLHF',                           # Nó "Rhf" perto do cluster de RL
-    r'\b[Rr]einforcement\s*[Ll]earning\b': 'RL',     # Opcional: Funde os dois nós gigantes
-    r'\b[Cc]ommon\s*[Cc]raw\b|\b[Cc]ommon\s*[Cc][Ww]\b': 'Common Crawl',
-    
-    # 5. Forçando Capitalização de Siglas para o spaCy
-    r'\bllm\b': 'LLM',                               # Força "LLM" maiúsculo para o seu padronizador
-    r'\bllms\b': 'LLMs',                             # Mantém plural, mas capitaliza
-    r'\brl\b': 'RL',                                 # Força "RL" maiúsculo
-    r'\bterabyt\b': 'terabytes',
+    r'\b[Ff]ine\s*[Tt]uning\b|\b[Ff]ine-[Tt]uning\b': 'Fine-Tuning', 
+    r'\b[Rr]hf\b': 'RLHF',                           
+    r'\b[Rr]einforcement\s*[Ll]earning\b': 'RL',     # Centraliza o nó gigante para "RL"
+    r'\b[Cc]ommon\s*[Cc]raw\b|\b[Cc]ommon\s*[Cc][Ww]\b|\b[Cc][Ww]\b': 'Common Crawl',
+    r'\b[Ll]m\s*[Ss]tudio\b': 'LM Studio',
+    r'\b[Cc]ar1\b': 'R1',                            # STT transcreveu R1 como Car1
 
-    # 6. Limpeza de Nomes Próprios Específicos do Grafo
-    r'\b[Jj]ane\s*[Aa]ustin\'[Ss]?\b': 'Jane Austen', # Nó "Jane Austin'S"
-    r'\b[Aa]llen[,]?\s*[Ii]nstitute\s*[Oo]f\s*[Aa]rtificial\s*[Ii]ntelligence\b': 'Allen Institute for AI', # Encurta o nó gigante
+    # 5. Nomes Próprios do Mundo Real e Política
+    r'\b[Ll]eis\s*[Dd]o\b|\b[Ll]isa\s*[Dd]ole\b': 'Lee Sedol', # Corrigido erro bizarro do AlphaGo
+    r'\b[Jj]ane\s*[Aa]ustin\'[Ss]?\b': 'Jane Austen', 
+    r'\b[Ss]pr\s*[Aa]nd\s*[Pp]rejudice\b': 'Pride and Prejudice',
+    r'\b[Cc]amala\s*[Hh]arris\b': 'Kamala Harris',
+    r'\b[Rr]onda\s*[Ss]antis\b': 'Ron DeSantis',
+    r'\b[Tt]im\s*[Kk]ane\b': 'Tim Kaine',
+    r'\b[Tt]om\s*[Cc]ruz\b': 'Tom Cruise',
+    r'\b[Jj]ohn\s*[Bb]araso\b': 'John Barrasso',
+    r'\b[Bb]uffalo\s*[Ss]avers\b': 'Buffalo Sabres',
+    r'\b[Aa]llen[,]?\s*[Ii]nstitute\s*[Oo]f\b|\b[Aa]llen,\b': 'Allen Institute', 
+
+    # 6. Forçando Capitalização para o spaCy (Para não criar nós vazados)
+    r'\bllms?\b|\blms?\b': 'LLM',                    # Limpa "Llm", "Llms", "Lm", "LMS", "LM" para um só "LLM"
+    r'\brl\b': 'RL',                                 
+    r'\bterabyt\b': 'terabytes',
+    r'\bai\b': 'AI',                                 # Evita o nó duplicado "Ai" vs "AI"
 }
 
 punct_model = PunctuationModel()
