@@ -13,15 +13,15 @@
 
 ## 1. Integrantes
 A equipe de desenvolvimento é composta por:
-- **HENRIQUE EDUARDO COSTA DA SILVA**
-- **MURILO DE LIMA BARROS**
-- **RAMON VINICIUS FERREIRA DE SOUZA**
+- **HENRIQUE EDUARDO COSTA DA SILVA:** responsável pela etapa de NER (extração de entidades nomeadas).
+- **MURILO DE LIMA BARROS:** responsável pela coleta, organização dos dados e pré-processamento textual.
+- **RAMON VINICIUS FERREIRA DE SOUZA:** responsável pelos grafos e pela análise dos resultados.
 
 ---
 
 ## 2. Descrição das Atividades Realizadas
 
-O sistema em Python executa um pipeline completo de Extração, Transformação e Carga (Modelagem de Redes) a partir de descrições orais não estruturadas de videocasts no YouTube.
+O projeto foi estruturado como um pipeline completo de processamento de linguagem natural e análise de redes de coocorrência de entidades, a partir de transcrições de videocasts no YouTube.
 
 ### 2.1. Aquisição e Agregação de Dados
 
@@ -30,7 +30,7 @@ O sistema em Python executa um pipeline completo de Extração, Transformação 
 - **Registro Físico:** Os dados brutos (e agregados) gerados são salvos em `/data/raw/` como `.txt` fluido e `.json` marcado por timestamps.
 
 ### 2.2. PNL e Reconhecimento de Entidades (`src/ner_extraction.py`)
-- O processamento de linguagem natural é alimentado de ponta a ponta pela biblioteca **spaCy** (modelo `en_core_web_sm`).
+- O processamento de linguagem natural foi realizado com a biblioteca **spaCy**, utilizando o modelo **en_core_web_trf** para reconhecimento de entidades nomeadas (NER).
 
 ### 2.3. As Três Janelas de Distância (`src/graph_builder.py`)
 No escopo fundamental do trabalho analítico, extraímos parâmetros determinísticos de NetworkX operando definições variadas de topologia de vizinhança:
@@ -39,4 +39,33 @@ No escopo fundamental do trabalho analítico, extraímos parâmetros determinís
 3. **Modelagem de K-Caracteres (K=50 Palavras):** Lógica espacial; independente de parágrafos, vizinhanças são traçadas mediante distância limítrofe no vetor.
 
 As extrações resultam em arestas ponderadas exportadas nativamente para a expansão `/data/processed/*.graphml`.
+
+---
+
+## 3. Principais Resultados Obtidos
+
+Os experimentos compararam diferentes janelas de coocorrência (sentença, parágrafo e K=50 palavras). O melhor desempenho qualitativo foi observado na **modelagem por parágrafo**, que produziu redes mais informativas e conexões mais coerentes entre entidades no contexto dos episódios analisados.
+
+### 3.1. Grafos Gerados
+
+1 - Grafo por Sentença
+![Resultado 1 - Grafo por sentença](assets/results/grafo_sentenca.png)
+
+2 - Grafo por Parágrafo
+![Resultado 2 - Grafo por parágrafo (melhor)](assets/results/grafo_paragrafo.png)
+
+3 - Grafo por K=50 Palavras
+![Resultado 3 - Grafo por K=50 palavras](assets/results/grafo_k50_palavras.png)
+
+---
+
+## 4. Análise e Discussão dos Achados
+
+A comparação entre as três abordagens mostrou que a escolha da janela de coocorrência impacta diretamente a estrutura da rede gerada:
+
+- Na **janela por sentença**, as conexões tendem a ser mais precisas, porém mais esparsas.
+- Na **janela por K=50 palavras**, há ganho de cobertura, mas as conexões parecem menos semânticas.
+- Na **janela por parágrafo**, observou-se o melhor equilíbrio entre contextualização e densidade da rede, tendo o melhor resultado.
+
+De forma geral, os grafos permitiram identificar entidades importanres, padrões de associação e possíveis temas dominantes nas transcrições.
 
